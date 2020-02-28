@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AstroPanda</string>
+
+    <string name="app_start_using">Начать использование</string>
 </resources>
