@@ -48,4 +48,19 @@
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:text="@string/tv1GetVip" />
+
+    <Button
+        android:id="@+id/btnGetVip"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/background"
+        android:foreground="?selectableItemBackground"
+        android:onClick="onClick"
+        android:text="@string/app_start_using"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
 </RelativeLayout>
