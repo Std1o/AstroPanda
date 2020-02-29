@@ -2,4 +2,10 @@
     <string name="app_name">AstroPanda</string>
 
     <string name="app_start_using">Начать использование</string>
+
+    <!-- hintEt-->
+    <string name="etName">Представьтесь</string>
+    <string name="etDate">Дата рождения</string>
+    <string name="etPlace">Место рождения</string>
+    <string name="etEmail">Ваш E-mail</string>
 </resources>

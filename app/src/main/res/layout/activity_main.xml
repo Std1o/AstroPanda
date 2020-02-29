@@ -19,4 +19,72 @@
         android:text="@string/app_start_using"
         android:textAllCaps="false"
         android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnGetVip">
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName|textCapWords"
+            android:hint="@string/etName"
+            android:drawableLeft="@drawable/avatar"
+            android:drawablePadding="5dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="20dp"
+            android:backgroundTint="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:hint="@string/etDate"
+            android:drawableLeft="@drawable/calendar"
+            android:drawablePadding="5dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="20dp"
+            android:backgroundTint="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/etPlace"
+            android:drawableLeft="@drawable/place"
+            android:drawablePadding="5dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="20dp"
+            android:backgroundTint="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/etEmail"
+            android:drawableLeft="@drawable/mail"
+            android:drawablePadding="5dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="20dp"
+            android:backgroundTint="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="@android:color/white" />
+    </LinearLayout>
 </RelativeLayout>
