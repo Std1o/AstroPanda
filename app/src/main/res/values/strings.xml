@@ -41,4 +41,14 @@
     <string name="answer1_2">Онлайн-консультации у профессиональных астрологов/нумерологов по любым вопросам</string>
     <string name="answer1_3">Нумерология</string>
     <string name="answer1_4">Хиромантия (анализ по вашей руке)</string>
+
+    <string name="q2">Какие прогнозы на 2020 год вас больше всего интересуют?
+    \nВыберите не больше 2-х вариантов</string>
+    <string name="answer2_1">Прогноз по отношениям</string>
+    <string name="answer2_2">Прогноз по карьере</string>
+    <string name="answer2_3">Прогноз по здоровью</string>
+    <string name="answer2_4">Прогноз по деньгам</string>
+    <string name="answer2_5">Прогноз по удачным и неудачным дням</string>
+    <string name="answer2_6">Никакие</string>
+    <string name="answer2_7">Ваш вариант</string>
 </resources>
