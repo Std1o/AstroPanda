@@ -58,4 +58,12 @@
     <string name="answer3_2">Астро-знакомство (поиск мужчины исходя из ваших карт жизни, предназначений и истинных потребностей)</string>
     <string name="answer3_3">Фен-Шуй</string>
     <string name="answer3_4">Ваш вариант</string>
+
+    <string name="q4">Как часто у вас возникают вопросы, на которые вам бы хотелось получить ответы от
+        профессиональных астрологов/нумерологов?</string>
+    <string name="answer4_1">1 раз в месяц</string>
+    <string name="answer4_2">2 раза в месяц</string>
+    <string name="answer4_3">1 раз в 3 месяца</string>
+    <string name="answer4_4">Не возникают  вообще</string>
+    <string name="answer4_5">Ваш вариант</string>
 </resources>

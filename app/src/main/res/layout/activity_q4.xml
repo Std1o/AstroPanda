@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Q3Activity"
+    tools:context=".Q4Activity"
     android:background="@drawable/bg3">
 
     <ImageView
@@ -52,32 +52,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="45dp"
-                android:text="@string/q3"
+                android:text="@string/q4"
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="17sp" />
 
-            <LinearLayout
+            <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tvQuestion"
                 android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
-                <CheckBox
-                    android:id="@+id/CheckBox1"
+                <RadioButton
+                    android:id="@+id/RadioButton1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="60dp"
                     android:layout_marginRight="10dp"
                     android:scaleX="1.1"
                     android:scaleY="1.1"
-                    android:text="@string/answer3_1"
+                    android:text="@string/answer4_1"
                     android:textColor="@android:color/white"
                     android:textSize="15sp" />
 
-                <CheckBox
-                    android:id="@+id/CheckBox2"
+                <RadioButton
+                    android:id="@+id/RadioButton2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="60dp"
@@ -85,12 +85,12 @@
                     android:layout_marginRight="10dp"
                     android:scaleX="1.1"
                     android:scaleY="1.1"
-                    android:text="@string/answer3_2"
+                    android:text="@string/answer4_2"
                     android:textColor="@android:color/white"
                     android:textSize="15sp" />
 
-                <CheckBox
-                    android:id="@+id/CheckBox3"
+                <RadioButton
+                    android:id="@+id/RadioButton3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="60dp"
@@ -98,7 +98,20 @@
                     android:layout_marginRight="10dp"
                     android:scaleX="1.1"
                     android:scaleY="1.1"
-                    android:text="@string/answer3_3"
+                    android:text="@string/answer4_3"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleX="1.1"
+                    android:scaleY="1.1"
+                    android:text="@string/answer4_4"
                     android:textColor="@android:color/white"
                     android:textSize="15sp" />
 
@@ -111,12 +124,12 @@
                     android:background="@drawable/selector_lines_edit_view_bg"
                     android:ems="10"
                     android:gravity="center_horizontal"
-                    android:hint="@string/answer3_4"
+                    android:hint="@string/answer4_5"
                     android:inputType="textPersonName|textCapSentences|textMultiLine"
                     android:textColor="@android:color/white"
                     android:textColorHint="#8977B1" />
 
-            </LinearLayout>
+            </RadioGroup>
         </LinearLayout>
     </ScrollView>
 
@@ -127,7 +140,7 @@
         android:layout_above="@+id/btnNext"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:text="@string/page3"
+        android:text="@string/page4"
         android:textColor="@color/colorAccent" />
 
     <Button
@@ -139,7 +152,6 @@
         android:layout_marginRight="60dp"
         android:background="@drawable/background"
         android:foreground="?selectableItemBackground"
-        android:onClick="onClick"
         android:text="@string/next"
         android:textAllCaps="false"
         android:textColor="@android:color/white" />
