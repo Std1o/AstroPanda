@@ -6,19 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/bg1">
-    <Button
-        android:id="@+id/btnGetVip"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginBottom="40dp"
-        android:background="@drawable/background"
-        android:foreground="?selectableItemBackground"
-        android:text="@string/app_start_using"
-        android:textAllCaps="false"
-        android:textColor="@android:color/white" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -98,5 +85,37 @@
             android:layout_gravity="center_horizontal"
             android:textColorHint="@android:color/white"
             android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorAccent"
+            android:text="@string/tvInfo" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cbAccept"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:textColor="#8977B1" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGetVip"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/background"
+        android:foreground="?selectableItemBackground"
+        android:text="@string/app_start_using"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
 </RelativeLayout>

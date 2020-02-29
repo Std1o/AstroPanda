@@ -5,7 +5,11 @@
 
     <!-- hintEt-->
     <string name="etName">Представьтесь <font color='#FF4F90'>*</font></string>
-    <string name="etDate">Дата рождения</string>
-    <string name="etPlace">Место рождения</string>
+    <string name="etDate">Дата рождения <font color='#FF4F90'>*</font></string>
+    <string name="etPlace">Место рождения <font color='#FF4F90'>*</font></string>
     <string name="etEmail">Ваш E-mail</string>
+
+    <string name="tvInfo">* - обязательные для заполнения</string>
+
+    <string name="cbAccept">Принимаю условия соглашения на обработку персональных данных</string>
 </resources>
