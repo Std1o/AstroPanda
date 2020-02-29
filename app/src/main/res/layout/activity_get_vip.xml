@@ -12,5 +12,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_user"
-        android:layout_margin="30dp"/>
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:text="Александр" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView2"
+        android:textColor="@color/colorAccent"
+        android:text="32 года" />
 </RelativeLayout>
