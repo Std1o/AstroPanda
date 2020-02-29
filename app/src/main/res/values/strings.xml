@@ -7,11 +7,15 @@
     <string name="next">Далее</string>
     <string name="taken">Вы заработали астробаллов</string>
 
-    <string name="page1">Вопрос 1 из 5</string>
-    <string name="page2">Вопрос 2 из 5</string>
-    <string name="page3">Вопрос 3 из 5</string>
-    <string name="page4">Вопрос 4 из 5</string>
-    <string name="page5">Вопрос 5 из 5</string>
+    <string name="page1">Вопрос 1 из 9</string>
+    <string name="page2">Вопрос 2 из 9</string>
+    <string name="page3">Вопрос 3 из 9</string>
+    <string name="page4">Вопрос 4 из 9</string>
+    <string name="page5">Вопрос 5 из 9</string>
+    <string name="page6">Вопрос 6 из 9</string>
+    <string name="page7">Вопрос 7 из 9</string>
+    <string name="page8">Вопрос 8 из 9</string>
+    <string name="page9">Вопрос 9 из 9</string>
 
     <string name="app_start_using">Начать использование</string>
 
