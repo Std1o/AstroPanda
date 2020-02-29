@@ -1,7 +1,17 @@
 <resources>
     <string name="app_name">AstroPanda</string>
 
+    <string name="err_no_selected">Ничего не выбрано</string>
+    <string name="empty_field">Поле не может быть пустым</string>
+    <string name="answer_field">Опишите в 2-3 предложениях, пожалуйста.</string>
+    <string name="next">Далее</string>
     <string name="taken">Вы заработали астробаллов</string>
+
+    <string name="page1">Вопрос 1 из 5</string>
+    <string name="page2">Вопрос 2 из 5</string>
+    <string name="page3">Вопрос 3 из 5</string>
+    <string name="page4">Вопрос 4 из 5</string>
+    <string name="page5">Вопрос 5 из 5</string>
 
     <string name="app_start_using">Начать использование</string>
 
