@@ -66,4 +66,13 @@
     <string name="answer4_3">1 раз в 3 месяца</string>
     <string name="answer4_4">Не возникают  вообще</string>
     <string name="answer4_5">Ваш вариант</string>
+
+    <string name="q5">Какое вознаграждение вы готовы дать астрологу/нумерологу
+        за ответ на 1 волнующий вас вопрос?</string>
+    <string name="answer5_1">19$</string>
+    <string name="answer5_2">29$</string>
+    <string name="answer5_3">39$</string>
+    <string name="answer5_4">49$</string>
+    <string name="answer5_5">79$</string>
+    <string name="answer5_6">Ваш вариант</string>
 </resources>
