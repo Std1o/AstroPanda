@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">AstroPanda</string>
 
+    <string name="taken">Вы заработали астробаллов</string>
+
     <string name="app_start_using">Начать использование</string>
 
     <!-- hintEt-->
@@ -22,4 +24,8 @@
         <font color='#FF4F90'>1050 астромонет-бонусов</font> в нашем приложении.
         Ответьте на все вопросы и получите
         <font color='#FF4F90'>VIP-статус в нашем приложении!</font></string>
+
+    <string name="q1">Пользуетесь ли вы уже подобными приложениями?</string>
+    <string name="answer1_1">Да</string>
+    <string name="answer1_2">Нет</string>
 </resources>
