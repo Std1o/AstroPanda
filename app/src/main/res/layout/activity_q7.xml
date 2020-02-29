@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Q6Activity"
+    tools:context=".Q7Activity"
     android:background="@drawable/bg3">
 
     <ImageView
@@ -41,47 +41,30 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="90dp">
+
         <TextView
             android:id="@+id/tvQuestion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="45dp"
+            android:text="@string/q7"
             android:textAlignment="center"
-            android:text="@string/q1"
             android:textColor="@android:color/white"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
+        <EditText
+            android:id="@+id/etAdvice"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:layout_below="@+id/tvQuestion">
-
-            <RadioButton
-                android:id="@+id/radioButton1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:scaleX="1.1"
-                android:scaleY="1.1"
-                android:text="@string/answer6_1"
-                android:textColor="@android:color/white"
-                android:textSize="15sp" />
-
-            <RadioButton
-                android:id="@+id/radioButton2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="15dp"
-                android:scaleX="1.1"
-                android:scaleY="1.1"
-                android:text="@string/answer6_2"
-                android:textColor="@android:color/white"
-                android:textSize="15sp" />
-
-        </RadioGroup>
+            android:background="@drawable/selector_lines_edit_view_bg"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/answer7_1"
+            android:inputType="textPersonName|textCapSentences|textMultiLine"
+            android:textColor="@android:color/white"
+            android:textColorHint="#8977B1" />
     </LinearLayout>
 
     <TextView
@@ -91,7 +74,7 @@
         android:layout_above="@+id/btnNext"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:text="@string/page6"
+        android:text="@string/page7"
         android:textColor="@color/colorAccent" />
 
     <Button
@@ -103,7 +86,6 @@
         android:layout_marginRight="60dp"
         android:background="@drawable/background"
         android:foreground="?selectableItemBackground"
-        android:onClick="onClick"
         android:text="@string/next"
         android:textAllCaps="false"
         android:textColor="@android:color/white" />

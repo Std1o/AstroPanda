@@ -85,4 +85,8 @@
         площадки, общение с единомышленниками через чаты и тд?</string>
     <string name="answer6_1">Да</string>
     <string name="answer6_2">Нет</string>
+
+    <string name="q7">С какими вопросами вы бы хотели разобраться и на какие получить ответ?
+        Что вас больше всего волнует?</string>
+    <string name="answer7_1">Введите ваш ответ</string>
 </resources>
