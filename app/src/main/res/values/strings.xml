@@ -51,4 +51,11 @@
     <string name="answer2_5">Прогноз по удачным и неудачным дням</string>
     <string name="answer2_6">Никакие</string>
     <string name="answer2_7">Ваш вариант</string>
+
+    <string name="q3">Отметьте что из этого вас интересует и чем бы вы пользовались
+    \nВыберите не больше 2-х вариантов</string>
+    <string name="answer3_1">Эзотерика (чистка энергии, проверка сглазов и окружения на вампиризм)</string>
+    <string name="answer3_2">Астро-знакомство (поиск мужчины исходя из ваших карт жизни, предназначений и истинных потребностей)</string>
+    <string name="answer3_3">Фен-Шуй</string>
+    <string name="answer3_4">Ваш вариант</string>
 </resources>

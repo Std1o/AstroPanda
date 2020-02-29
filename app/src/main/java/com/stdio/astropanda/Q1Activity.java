@@ -17,7 +17,7 @@ public class Q1Activity extends AppCompatActivity {
         setContentView(R.layout.activity_q1);
 
         progressBar = findViewById(R.id.progressId);
-        progressBar.setProgress(16);
+        progressBar.setProgress(12);
     }
 
     public void onClick(View view) {
