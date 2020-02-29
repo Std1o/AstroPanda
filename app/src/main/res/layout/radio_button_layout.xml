@@ -51,31 +51,29 @@
             android:textColor="@android:color/white"
             android:textSize="17sp"/>
 
-        <LinearLayout
+        <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="20dp"
             android:layout_below="@+id/tvQuestion">
 
-            <CheckBox
-                android:id="@+id/CheckBox1"
+            <RadioButton
+                android:id="@+id/radioButton1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginRight="10dp"
                 android:scaleX="1.1"
                 android:scaleY="1.1"
                 android:text="@string/answer1_1"
                 android:textColor="@android:color/white"
                 android:textSize="15sp" />
 
-            <CheckBox
-                android:id="@+id/CheckBox2"
+            <RadioButton
+                android:id="@+id/radioButton2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginTop="15dp"
                 android:scaleX="1.1"
                 android:scaleY="1.1"
@@ -83,12 +81,11 @@
                 android:textColor="@android:color/white"
                 android:textSize="15sp" />
 
-            <CheckBox
-                android:id="@+id/CheckBox3"
+            <RadioButton
+                android:id="@+id/radioButton3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginTop="15dp"
                 android:scaleX="1.1"
                 android:scaleY="1.1"
@@ -96,19 +93,18 @@
                 android:textColor="@android:color/white"
                 android:textSize="15sp" />
 
-            <CheckBox
-                android:id="@+id/CheckBox4"
+            <RadioButton
+                android:id="@+id/radioButton4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginTop="15dp"
                 android:scaleX="1.1"
                 android:scaleY="1.1"
                 android:text="@string/answer1_4"
                 android:textColor="@android:color/white"
                 android:textSize="15sp" />
-        </LinearLayout>
+        </RadioGroup>
     </LinearLayout>
 
     <TextView
