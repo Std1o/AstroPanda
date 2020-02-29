@@ -75,4 +75,10 @@
     <string name="answer5_4">49$</string>
     <string name="answer5_5">79$</string>
     <string name="answer5_6">Ваш вариант</string>
+
+    <string name="q6">Интересно ли вам стать частью астрологического/эзотерического сообщества,
+        в котором будут: мастер-классы от разных спикеров, новые темы для изучения, дискуссионные
+        площадки, общение с единомышленниками через чаты и тд?</string>
+    <string name="answer6_1">Да</string>
+    <string name="answer6_2">Нет</string>
 </resources>
