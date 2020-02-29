@@ -35,7 +35,10 @@
         Ответьте на все вопросы и получите
         <font color='#FF4F90'>VIP-статус в нашем приложении!</font></string>
 
-    <string name="q1">Пользуетесь ли вы уже подобными приложениями?</string>
-    <string name="answer1_1">Да</string>
-    <string name="answer1_2">Нет</string>
+    <string name="q1">Отметьте что из этого вас интересует и чем бы вы пользовались
+    \nВыберите не больше 2-х вариантов</string>
+    <string name="answer1_1">Персонализированный гороскоп на день/неделю</string>
+    <string name="answer1_2">Онлайн-консультации у профессиональных астрологов/нумерологов по любым вопросам</string>
+    <string name="answer1_3">Нумерология</string>
+    <string name="answer1_4">Хиромантия (анализ по вашей руке)</string>
 </resources>

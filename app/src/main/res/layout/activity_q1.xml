@@ -7,11 +7,40 @@
     tools:context=".Q1Activity"
     android:background="@drawable/bg3">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_user"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:text="Александр" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView2"
+        android:textColor="@color/colorAccent"
+        android:text="32 года" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="140dp">
+        android:layout_marginTop="90dp">
         <TextView
             android:id="@+id/tvQuestion"
             android:layout_width="match_parent"
@@ -26,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             android:layout_below="@+id/tvQuestion">
 
             <RadioButton
@@ -45,11 +74,34 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
                 android:scaleX="1.1"
                 android:scaleY="1.1"
                 android:text="@string/answer1_2"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="15dp"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:text="@string/answer1_3"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="15dp"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:text="@string/answer1_4"
                 android:textColor="@android:color/white"
                 android:textSize="15sp" />
         </RadioGroup>
