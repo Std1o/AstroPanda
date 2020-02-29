@@ -86,6 +86,7 @@
         android:layout_marginRight="60dp"
         android:background="@drawable/background"
         android:foreground="?selectableItemBackground"
+        android:onClick="onClick"
         android:text="@string/next"
         android:textAllCaps="false"
         android:textColor="@android:color/white" />

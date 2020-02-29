@@ -41,15 +41,16 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="90dp">
+
         <TextView
             android:id="@+id/tvQuestion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="45dp"
+            android:text="@string/q6"
             android:textAlignment="center"
-            android:text="@string/q1"
             android:textColor="@android:color/white"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <RadioGroup
             android:layout_width="match_parent"
