@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private AlarmManagerBroadcastReceiver alarm;
+    public static String message = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

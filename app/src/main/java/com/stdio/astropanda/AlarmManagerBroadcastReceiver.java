@@ -31,7 +31,7 @@ public class AlarmManagerBroadcastReceiver extends BroadcastReceiver {
 //Осуществляем блокировку
         wl.acquire();
         SharedPreferences prefs = context.getSharedPreferences("moneyPref", Context.MODE_PRIVATE);
-        if (prefs.getInt("moneyCount", 0) != 1000) {
+        if (prefs.getInt("moneyCount", 0) != 1050) {
             sendNotification(context, context.getString(R.string.push));
         }
 
