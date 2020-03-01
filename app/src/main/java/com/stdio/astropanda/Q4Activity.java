@@ -49,7 +49,7 @@ public class Q4Activity extends AppCompatActivity {
         editor.apply();
 
         progressBar = findViewById(R.id.progressId);
-        progressBar.setProgress(48);
+        progressBar.setProgress(45);
 
         RadioButton redRadioButton = findViewById(R.id.RadioButton1);
         redRadioButton.setOnClickListener(radioButtonClickListener);
