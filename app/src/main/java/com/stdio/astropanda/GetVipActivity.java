@@ -35,96 +35,89 @@ public class GetVipActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        SharedPreferences currentPagePref = getSharedPreferences("currentPagePref", MODE_PRIVATE);
         languagePref = getSharedPreferences("languagePref", MODE_PRIVATE);
-        String currentActivity = currentPagePref.getString("currentPage", "");
-        if (!currentActivity.isEmpty()) {
-            startActivity(new Intent("." + currentActivity));
-            finish();
-        } else {
-            Resources res = getResources();
+        Resources res = getResources();
 // Change locale settings in the app.
-            DisplayMetrics dm = res.getDisplayMetrics();
-            android.content.res.Configuration conf = res.getConfiguration();
-            System.out.println(getLanguageFromPosition(languagePref.getInt("language", getSpinnerPosition(Locale.getDefault().getCountry()))));
-            conf.setLocale(new Locale(getLanguageFromPosition(languagePref.getInt("language", getSpinnerPosition(Locale.getDefault().getCountry()))))); // API 17+ only.
+        DisplayMetrics dm = res.getDisplayMetrics();
+        android.content.res.Configuration conf = res.getConfiguration();
+        System.out.println(getLanguageFromPosition(languagePref.getInt("language", getSpinnerPosition(Locale.getDefault().getCountry()))));
+        conf.setLocale(new Locale(getLanguageFromPosition(languagePref.getInt("language", getSpinnerPosition(Locale.getDefault().getCountry()))))); // API 17+ only.
 // Use conf.locale = new Locale(...) if targeting lower versions
-            res.updateConfiguration(conf, dm);
-            setContentView(R.layout.activity_get_vip);
+        res.updateConfiguration(conf, dm);
+        setContentView(R.layout.activity_get_vip);
 
-            images.add(R.drawable.en);
-            images.add(R.drawable.de);
-            images.add(R.drawable.es);
-            images.add(R.drawable.fr);
-            images.add(R.drawable.it);
-            images.add(R.drawable.ru);
+        images.add(R.drawable.en);
+        images.add(R.drawable.de);
+        images.add(R.drawable.es);
+        images.add(R.drawable.fr);
+        images.add(R.drawable.it);
+        images.add(R.drawable.ru);
 
-            spinner = findViewById(R.id.spinner2);
+        spinner = findViewById(R.id.spinner2);
 
-            ArrayAdapter<Integer> spinnerAdapter = new ArrayAdapter<Integer>(this, android.R.layout.simple_spinner_dropdown_item, images) {
+        ArrayAdapter<Integer> spinnerAdapter = new ArrayAdapter<Integer>(this, android.R.layout.simple_spinner_dropdown_item, images) {
 
-                @Override
-                public boolean isEnabled(int position) {
-                    return true;
+            @Override
+            public boolean isEnabled(int position) {
+                return true;
+            }
+
+            @Override
+            public boolean areAllItemsEnabled() {
+                return false;
+            }
+
+            @NonNull
+            @Override
+            public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+                View v = convertView;
+                if (v == null) {
+                    Context mContext = this.getContext();
+                    LayoutInflater vi = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                    v = vi.inflate(R.layout.row2, null);
                 }
 
-                @Override
-                public boolean areAllItemsEnabled() {
-                    return false;
+                ImageView ivDrink = v.findViewById(R.id.imageView);
+                ivDrink.setImageDrawable(ResourcesCompat.getDrawable(getResources(), images.get(position), null));
+                return v;
+            }
+
+            @Override
+            public View getDropDownView(int position, View convertView, ViewGroup parent) {
+                View v = convertView;
+                if (v == null) {
+                    Context mContext = this.getContext();
+                    LayoutInflater vi = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                    v = vi.inflate(R.layout.row_drop_down, null);
                 }
+                ImageView ivDrink = v.findViewById(R.id.imageView);
+                ivDrink.setImageDrawable(ResourcesCompat.getDrawable(getResources(), images.get(position), null));
+                return v;
+            }
+        };
 
-                @NonNull
-                @Override
-                public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-                    View v = convertView;
-                    if (v == null) {
-                        Context mContext = this.getContext();
-                        LayoutInflater vi = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                        v = vi.inflate(R.layout.row2, null);
-                    }
-
-                    ImageView ivDrink = v.findViewById(R.id.imageView);
-                    ivDrink.setImageDrawable(ResourcesCompat.getDrawable(getResources(), images.get(position), null));
-                    return v;
+        spinner.setAdapter(spinnerAdapter);
+        System.out.println(Locale.getDefault().getCountry());
+        int pos = languagePref.getInt("language", getSpinnerPosition(Locale.getDefault().getCountry()));
+        spinner.setSelection(pos);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                SharedPreferences.Editor editor = languagePref.edit();
+                editor.putInt("language", position);
+                editor.apply();
+                if (isShowed) {
+                    Toast.makeText(GetVipActivity.this, getString(R.string.restart_for_changes), Toast.LENGTH_SHORT).show();
+                } else {
+                    isShowed = true;
                 }
+            }
 
-                @Override
-                public View getDropDownView(int position, View convertView, ViewGroup parent) {
-                    View v = convertView;
-                    if (v == null) {
-                        Context mContext = this.getContext();
-                        LayoutInflater vi = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                        v = vi.inflate(R.layout.row_drop_down, null);
-                    }
-                    ImageView ivDrink = v.findViewById(R.id.imageView);
-                    ivDrink.setImageDrawable(ResourcesCompat.getDrawable(getResources(), images.get(position), null));
-                    return v;
-                }
-            };
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
 
-            spinner.setAdapter(spinnerAdapter);
-            System.out.println(Locale.getDefault().getCountry());
-            int pos = languagePref.getInt("language", getSpinnerPosition(Locale.getDefault().getCountry()));
-            spinner.setSelection(pos);
-            spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-                @Override
-                public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                    SharedPreferences.Editor editor = languagePref.edit();
-                    editor.putInt("language", position);
-                    editor.apply();
-                    if (isShowed) {
-                        Toast.makeText(GetVipActivity.this, getString(R.string.restart_for_changes), Toast.LENGTH_SHORT).show();
-                    } else {
-                        isShowed = true;
-                    }
-                }
-
-                @Override
-                public void onNothingSelected(AdapterView<?> parent) {
-
-                }
-            });
-        }
+            }
+        });
     }
 
     public void onClick(View view) {

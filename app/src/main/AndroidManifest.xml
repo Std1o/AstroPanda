@@ -15,17 +15,83 @@
         <activity android:name=".slideShow.SlideActivity3" />
         <activity android:name=".slideShow.SlideActivity2" />
         <activity android:name=".slideShow.SlideActivity1" />
-        <activity android:name=".CompleteActivity" />
-        <activity android:name=".Q9Activity" />
-        <activity android:name=".Q8Activity" />
-        <activity android:name=".Q7Activity" />
-        <activity android:name=".Q6Activity" />
-        <activity android:name=".Q5Activity" />
-        <activity android:name=".Q4Activity" />
-        <activity android:name=".Q3Activity" />
-        <activity android:name=".Q2Activity" />
-        <activity android:name=".Q1Activity" />
-        <activity android:name=".GetVipActivity" />
+        <activity android:name=".CompleteActivity">
+            <intent-filter>
+                <action android:name=".CompleteActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q9Activity">
+            <intent-filter>
+                <action android:name=".Q9Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q8Activity">
+            <intent-filter>
+                <action android:name=".Q8Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q7Activity">
+            <intent-filter>
+                <action android:name=".Q7Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q6Activity">
+            <intent-filter>
+                <action android:name=".Q6Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q5Activity">
+            <intent-filter>
+                <action android:name=".Q5Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q4Activity">
+            <intent-filter>
+                <action android:name=".Q4Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q3Activity">
+            <intent-filter>
+                <action android:name=".Q3Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q2Activity">
+            <intent-filter>
+                <action android:name=".Q2Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q1Activity">
+            <intent-filter>
+                <action android:name=".Q1Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GetVipActivity">
+            <intent-filter>
+                <action android:name=".GetVipActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

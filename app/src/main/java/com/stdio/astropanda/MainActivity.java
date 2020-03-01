@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -16,14 +17,21 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        alarm=new AlarmManagerBroadcastReceiver();
+        SharedPreferences currentPagePref = getSharedPreferences("currentPagePref", MODE_PRIVATE);
+        String currentActivity = currentPagePref.getString("currentPage", "");
+        if (!currentActivity.isEmpty()) {
+            startActivity(new Intent("." + currentActivity));
+            finish();
+        } else {
+            setContentView(R.layout.activity_main);
+            alarm=new AlarmManagerBroadcastReceiver();
 
-        Context context= this.getApplicationContext();
-        if(alarm!=null){
-            alarm.SetAlarm(context);
-        }else{
-            Toast.makeText(context,"Alarm is null", Toast.LENGTH_SHORT).show();
+            Context context= this.getApplicationContext();
+            if(alarm!=null){
+                alarm.SetAlarm(context);
+            }else{
+                Toast.makeText(context,"Alarm is null", Toast.LENGTH_SHORT).show();
+            }
         }
     }
 
