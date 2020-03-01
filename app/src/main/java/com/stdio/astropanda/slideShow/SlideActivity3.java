@@ -44,7 +44,7 @@ public class SlideActivity3 extends AppCompatActivity {
     }
 
     private Observable<? extends Long> getObservable() {
-        return Observable.interval(3, 3, TimeUnit.SECONDS);
+        return Observable.interval(2, 2, TimeUnit.SECONDS);
     }
 
     private DisposableObserver<Long> getObserver() {
@@ -52,7 +52,7 @@ public class SlideActivity3 extends AppCompatActivity {
 
             @Override
             public void onNext(Long value) {
-                startActivity(new Intent(SlideActivity3.this, SlideActivity1.class));
+                startActivity(new Intent(SlideActivity3.this, SlideActivity4.class));
                 Animatoo.animateFade(SlideActivity3.this);
                 finish();
             }

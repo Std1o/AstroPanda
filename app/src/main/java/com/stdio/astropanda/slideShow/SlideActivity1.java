@@ -44,7 +44,7 @@ public class SlideActivity1 extends AppCompatActivity {
     }
 
     private Observable<? extends Long> getObservable() {
-        return Observable.interval(3, 3, TimeUnit.SECONDS);
+        return Observable.interval(2, 2, TimeUnit.SECONDS);
     }
 
     private DisposableObserver<Long> getObserver() {

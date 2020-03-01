@@ -16,15 +16,14 @@ import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
 
-public class SlideActivity2 extends AppCompatActivity {
+public class SlideActivity6 extends AppCompatActivity {
 
     private final CompositeDisposable disposables = new CompositeDisposable();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_slide2);
+        setContentView(R.layout.activity_slide6);
         doSomeWork();
     }
 
@@ -52,8 +51,8 @@ public class SlideActivity2 extends AppCompatActivity {
 
             @Override
             public void onNext(Long value) {
-                startActivity(new Intent(SlideActivity2.this, SlideActivity3.class));
-                Animatoo.animateFade(SlideActivity2.this);
+                startActivity(new Intent(SlideActivity6.this, SlideActivity1.class));
+                Animatoo.animateFade(SlideActivity6.this);
                 finish();
             }
 
