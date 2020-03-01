@@ -99,7 +99,7 @@ public class Q2Activity extends AppCompatActivity {
             }
             if (!et.getText().toString().isEmpty()) {
                 if (isFirstClick) {
-                    MainActivity.message += "\n\nКакие прогнозы на 2020 год вас больше всего интересуют? ";
+                    MainActivity.message += "\n\nКакие прогнозы на 2020 год вас больше всего интересуют? - ";
                 }
                 MainActivity.message += "\nВаш вариант - " + et.getText().toString();
             }
