@@ -41,13 +41,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
-        android:layout_marginTop="30dp"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
-        android:textSize="17sp"
+        android:text="@string/tvCongratulations"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:text="@string/tv1GetVip" />
+        android:textSize="17sp" />
 
     <Button
         android:id="@+id/btnGetVip"
