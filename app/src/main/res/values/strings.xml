@@ -6,6 +6,9 @@
     <string name="answer_field">Опишите в 2-3 предложениях, пожалуйста.</string>
     <string name="next">Далее</string>
     <string name="taken">Вы заработали астробаллов</string>
+    <string name="send">Отправить</string>
+    <string name="push">Пройдите опрос</string>
+    <string name="restart_for_changes">Изменения вступят в силу после перезапуска</string>
 
     <string name="page1">Вопрос 1 из 9</string>
     <string name="page2">Вопрос 2 из 9</string>
