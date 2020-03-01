@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences currentPagePref = getSharedPreferences("currentPagePref", MODE_PRIVATE);
         String currentActivity = currentPagePref.getString("currentPage", "");
         if (!currentActivity.isEmpty()) {
-            startActivity(new Intent("." + currentActivity));
+            startActivity(new Intent("." + currentActivity).setPackage("com.stdio.astropanda"));
             finish();
         } else {
             setContentView(R.layout.activity_main);

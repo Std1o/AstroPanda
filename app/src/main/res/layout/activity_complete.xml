@@ -7,6 +7,14 @@
     tools:context=".CompleteActivity"
     android:background="@drawable/bg4">
 
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner2"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
