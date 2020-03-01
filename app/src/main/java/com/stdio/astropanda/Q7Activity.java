@@ -54,7 +54,7 @@ public class Q7Activity extends AppCompatActivity {
         if (!etAdvice.getText().toString().isEmpty()) {
             MainActivity.message += "\n\nЧего вам не хватает в текущем способе учета личных финансов? - " + etAdvice.getText().toString();
             SharedPreferences.Editor editor = prefs.edit();
-            editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 200);
+            editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 110);
             editor.apply();
             startActivity(new Intent(this, Q8Activity.class));
             finish();
