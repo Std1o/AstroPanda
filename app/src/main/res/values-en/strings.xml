@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">AstroPanda</string>
+
+    <string name="err_no_selected">Ничего не выбрано</string>
+    <string name="empty_field">Поле не может быть пустым</string>
+    <string name="answer_field">Опишите в 2-3 предложениях, пожалуйста.</string>
+    <string name="next">Далее</string>
+    <string name="taken">Вы заработали астробаллов</string>
+    <string name="send">Отправить</string>
+    <string name="push">Пройдите опрос</string>
+    <string name="restart_for_changes">Изменения вступят в силу после перезапуска</string>
+
+    <string name="page1">Вопрос 1 из 9</string>
+    <string name="page2">Вопрос 2 из 9</string>
+    <string name="page3">Вопрос 3 из 9</string>
+    <string name="page4">Вопрос 4 из 9</string>
+    <string name="page5">Вопрос 5 из 9</string>
+    <string name="page6">Вопрос 6 из 9</string>
+    <string name="page7">Вопрос 7 из 9</string>
+    <string name="page8">Вопрос 8 из 9</string>
+    <string name="page9">Вопрос 9 из 9</string>
+
+    <string name="app_start_using">Начать использование</string>
+
+    <!-- hintEt-->
+    <string name="etName">Представьтесь <font color='#FF4F90'>*</font></string>
+    <string name="etDate">Дата рождения <font color='#FF4F90'>*</font></string>
+    <string name="etPlace">Место рождения <font color='#FF4F90'>*</font></string>
+    <string name="etEmail">Ваш E-mail</string>
+
+    <string name="tvInfo">* - обязательные для заполнения</string>
+
+    <string name="cbAccept">Принимаю условия соглашения на обработку персональных данных</string>
+
+    <!--GetVipActivity-->
+    <string name="tv1GetVip">Привет!\n\nМеня зовут AstroPanda и я помогу заглянуть в будущее!
+        Я объединяю в себе точные науки, передовые методы, современные технологии для познания себя,
+        своего будущего, будущего семьи и вашего окружения.\n\n
+
+    Пройдите этот короткий опрос и получите по итогу
+        <font color='#FF4F90'>1050 астромонет-бонусов</font> в нашем приложении.
+        Ответьте на все вопросы и получите
+        <font color='#FF4F90'>VIP-статус в нашем приложении!</font></string>
+
+    <string name="q1">Отметьте что из этого вас интересует и чем бы вы пользовались
+    \nВыберите не больше 2-х вариантов</string>
+    <string name="answer1_1">Персонализированный гороскоп на день/неделю</string>
+    <string name="answer1_2">Онлайн-консультации у профессиональных астрологов/нумерологов по любым вопросам</string>
+    <string name="answer1_3">Нумерология</string>
+    <string name="answer1_4">Хиромантия (анализ по вашей руке)</string>
+
+    <string name="q2">Какие прогнозы на 2020 год вас больше всего интересуют?
+    \nВыберите не больше 2-х вариантов</string>
+    <string name="answer2_1">Прогноз по отношениям</string>
+    <string name="answer2_2">Прогноз по карьере</string>
+    <string name="answer2_3">Прогноз по здоровью</string>
+    <string name="answer2_4">Прогноз по деньгам</string>
+    <string name="answer2_5">Прогноз по удачным и неудачным дням</string>
+    <string name="answer2_6">Никакие</string>
+    <string name="answer2_7">Ваш вариант</string>
+
+    <string name="q3">Отметьте что из этого вас интересует и чем бы вы пользовались
+    \nВыберите не больше 2-х вариантов</string>
+    <string name="answer3_1">Эзотерика (чистка энергии, проверка сглазов и окружения на вампиризм)</string>
+    <string name="answer3_2">Астро-знакомство (поиск мужчины исходя из ваших карт жизни, предназначений и истинных потребностей)</string>
+    <string name="answer3_3">Фен-Шуй</string>
+    <string name="answer3_4">Ваш вариант</string>
+
+    <string name="q4">Как часто у вас возникают вопросы, на которые вам бы хотелось получить ответы от
+        профессиональных астрологов/нумерологов?</string>
+    <string name="answer4_1">1 раз в месяц</string>
+    <string name="answer4_2">2 раза в месяц</string>
+    <string name="answer4_3">1 раз в 3 месяца</string>
+    <string name="answer4_4">Не возникают  вообще</string>
+    <string name="answer4_5">Ваш вариант</string>
+
+    <string name="q5">Какое вознаграждение вы готовы дать астрологу/нумерологу
+        за ответ на 1 волнующий вас вопрос?</string>
+    <string name="answer5_1">19$</string>
+    <string name="answer5_2">29$</string>
+    <string name="answer5_3">39$</string>
+    <string name="answer5_4">49$</string>
+    <string name="answer5_5">79$</string>
+    <string name="answer5_6">Ваш вариант</string>
+
+    <string name="q6">Интересно ли вам стать частью астрологического/эзотерического сообщества,
+        в котором будут: мастер-классы от разных спикеров, новые темы для изучения, дискуссионные
+        площадки, общение с единомышленниками через чаты и тд?</string>
+    <string name="answer6_1">Да</string>
+    <string name="answer6_2">Нет</string>
+
+    <string name="q7">С какими вопросами вы бы хотели разобраться и на какие получить ответ?
+        Что вас больше всего волнует?</string>
+    <string name="answer7_1">Введите ваш ответ</string>
+
+    <string name="q8">Какое вознаграждение вы готовы дать астрологу/нумерологу за консультацию который
+        работает с известными личностями и звездами?</string>
+    <string name="answer8_1">200$</string>
+    <string name="answer8_2">300$</string>
+    <string name="answer8_3">400$</string>
+    <string name="answer8_4">500$</string>
+    <string name="answer8_5">Мне не важно работает ли астролог с известными личностями или нет.
+        Я не готова за это переплачивать</string>
+
+    <string name="q9">Что обязательно должно быть в приложении, чтобы вы им пользовались каждый день?</string>
+    <string name="answer9_1">Введите ваш ответ</string>
+
+
+    <string name="tvCongratulations">Поздравляем!\n\n
+    Вы успешно ответили на все вопросы!\n
+    Теперь вы получили
+        <font color='#FF4F90'>VIP-статус и 500 астробонусов</font>, которые
+        вы можете потратить на дополнительные услуги!
+    \n\nВ настоящее время приложение находится в разработке.
+        Мы оповестим вас уведомлением, когда приложение будет запущено и
+        вы сможете использовать полученные преимущества! Спасибо вам от</string>
+    <string name="view_the_interface">Посмотреть интерфейс</string>
+</resources>
