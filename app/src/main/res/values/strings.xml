@@ -1,25 +1,24 @@
 <resources>
     <string name="app_name">AstroPanda</string>
 
-    <string name="err_no_selected">Ничего не выбрано</string>
-    <string name="empty_field">Поле не может быть пустым</string>
-    <string name="answer_field">Опишите в 2-3 предложениях, пожалуйста.</string>
-    <string name="next">Далее</string>
+    <string name="err_no_selected">Nothing is selected</string>
+    <string name="empty_field">The field cannot be empty</string>
+    <string name="next">Next</string>
     <string name="getVipBtn">Get VIP status</string>
     <string name="taken">Вы заработали астробаллов</string>
-    <string name="send">Отправить</string>
-    <string name="push">Пройдите опрос</string>
-    <string name="restart_for_changes">Изменения вступят в силу после перезапуска</string>
+    <string name="send">Send</string>
+    <string name="push">Please take the survey</string>
+    <string name="restart_for_changes">The changes will take effect after the restart</string>
 
     <string name="page1">Question 1 of 9</string>
     <string name="page2">Question 2 of 9</string>
-    <string name="page3">Вопрос 3 из 9</string>
-    <string name="page4">Вопрос 4 из 9</string>
-    <string name="page5">Вопрос 5 из 9</string>
-    <string name="page6">Вопрос 6 из 9</string>
-    <string name="page7">Вопрос 7 из 9</string>
-    <string name="page8">Вопрос 8 из 9</string>
-    <string name="page9">Вопрос 9 из 9</string>
+    <string name="page3">Question 3 of 9</string>
+    <string name="page4">Question 4 of 9</string>
+    <string name="page5">Question 5 of 9</string>
+    <string name="page6">Question 6 of 9</string>
+    <string name="page7">Question 7 of 9</string>
+    <string name="page8">Question 8 of 9</string>
+    <string name="page9">Question 9 of 9</string>
 
     <string name="app_start_using">Start using</string>
 
@@ -99,13 +98,11 @@
     <string name="answer9_1">Enter your answer</string>
 
 
-    <string name="tvCongratulations">Поздравляем!\n\n
-    Вы успешно ответили на все вопросы!\n
-    Теперь вы получили
-        <font color='#FF4F90'>VIP-статус и 500 астробонусов</font>, которые
-        вы можете потратить на дополнительные услуги!
-    \n\nВ настоящее время приложение находится в разработке.
-        Мы оповестим вас уведомлением, когда приложение будет запущено и
-        вы сможете использовать полученные преимущества! Спасибо вам от</string>
-    <string name="view_the_interface">Посмотреть интерфейс</string>
+    <string name="tvCongratulations">Congratulations!\n\n
+    You have successfully answered all the questions!\n
+    Now you have received
+        <font color='#FF4F90'>VIP status and 500 astrobonuses</font>, which you can spend on additional services!
+    \n\nThe application is currently under development.
+        МWe will notify you when the application is launched and you can use the benefits! Thank you from</string>
+    <string name="view_the_interface">View the interface</string>
 </resources>

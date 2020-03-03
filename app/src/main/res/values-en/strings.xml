@@ -1,25 +1,24 @@
 <resources>
     <string name="app_name">AstroPanda</string>
 
-    <string name="err_no_selected">Ничего не выбрано</string>
-    <string name="empty_field">Поле не может быть пустым</string>
-    <string name="answer_field">Опишите в 2-3 предложениях, пожалуйста.</string>
-    <string name="next">Далее</string>
+    <string name="err_no_selected">Nothing is selected</string>
+    <string name="empty_field">The field cannot be empty</string>
+    <string name="next">Next</string>
     <string name="getVipBtn">Get VIP status</string>
     <string name="taken">Вы заработали астробаллов</string>
-    <string name="send">Отправить</string>
-    <string name="push">Пройдите опрос</string>
-    <string name="restart_for_changes">Изменения вступят в силу после перезапуска</string>
+    <string name="send">Send</string>
+    <string name="push">Please take the survey</string>
+    <string name="restart_for_changes">The changes will take effect after the restart</string>
 
     <string name="page1">Question 1 of 9</string>
     <string name="page2">Question 2 of 9</string>
-    <string name="page3">Вопрос 3 из 9</string>
-    <string name="page4">Вопрос 4 из 9</string>
-    <string name="page5">Вопрос 5 из 9</string>
-    <string name="page6">Вопрос 6 из 9</string>
-    <string name="page7">Вопрос 7 из 9</string>
-    <string name="page8">Вопрос 8 из 9</string>
-    <string name="page9">Вопрос 9 из 9</string>
+    <string name="page3">Question 3 of 9</string>
+    <string name="page4">Question 4 of 9</string>
+    <string name="page5">Question 5 of 9</string>
+    <string name="page6">Question 6 of 9</string>
+    <string name="page7">Question 7 of 9</string>
+    <string name="page8">Question 8 of 9</string>
+    <string name="page9">Question 9 of 9</string>
 
     <string name="app_start_using">Start using</string>
 
@@ -60,59 +59,50 @@
     <string name="answer2_7">Your option</string>
 
     <string name="q3">Note what you are interested in and what you would use
-    \nВыберите не больше 2-х вариантов</string>
-    <string name="answer3_1">Эзотерика (чистка энергии, проверка сглазов и окружения на вампиризм)</string>
-    <string name="answer3_2">Астро-знакомство (поиск мужчины исходя из ваших карт жизни, предназначений и истинных потребностей)</string>
-    <string name="answer3_3">Фен-Шуй</string>
-    <string name="answer3_4">Ваш вариант</string>
+    \nChoose no more than 2 options</string>
+    <string name="answer3_1">Esoteric (energy cleansing, evil eye and environment testing for vampirism)</string>
+    <string name="answer3_2">Astro Dating (search for a partner based on your life maps, destinations and true needs)</string>
+    <string name="answer3_3">Feng Shui</string>
+    <string name="answer3_4">Your option</string>
 
-    <string name="q4">Как часто у вас возникают вопросы, на которые вам бы хотелось получить ответы от
-        профессиональных астрологов/нумерологов?</string>
-    <string name="answer4_1">1 раз в месяц</string>
-    <string name="answer4_2">2 раза в месяц</string>
-    <string name="answer4_3">1 раз в 3 месяца</string>
-    <string name="answer4_4">Не возникают  вообще</string>
-    <string name="answer4_5">Ваш вариант</string>
+    <string name="q4">How often do you have questions that you would like answers from professional astrologers/numerologists?</string>
+    <string name="answer4_1">Once a month</string>
+    <string name="answer4_2">Two times a month</string>
+    <string name="answer4_3">Once every 3 months.</string>
+    <string name="answer4_4">Doesn\'t at all.</string>
+    <string name="answer4_5">Your option</string>
 
-    <string name="q5">Какое вознаграждение вы готовы дать астрологу/нумерологу
-        за ответ на 1 волнующий вас вопрос?</string>
+    <string name="q5">What kind of reward are you willing to give to an astrologer/numerologist for answering 1 question that concerns you?</string>
     <string name="answer5_1">19$</string>
     <string name="answer5_2">29$</string>
     <string name="answer5_3">39$</string>
     <string name="answer5_4">49$</string>
     <string name="answer5_5">79$</string>
-    <string name="answer5_6">Ваш вариант</string>
+    <string name="answer5_6">Your option</string>
 
-    <string name="q6">Интересно ли вам стать частью астрологического/эзотерического сообщества,
-        в котором будут: мастер-классы от разных спикеров, новые темы для изучения, дискуссионные
-        площадки, общение с единомышленниками через чаты и тд?</string>
-    <string name="answer6_1">Да</string>
-    <string name="answer6_2">Нет</string>
+    <string name="q6">Are you interested in becoming part of an astrological/esoteric community that includes: master classes from different speakers, new topics to explore, discussion platforms, chat rooms with like-minded people, etc.?</string>
+    <string name="answer6_1">Yes</string>
+    <string name="answer6_2">No</string>
 
-    <string name="q7">С какими вопросами вы бы хотели разобраться и на какие получить ответ?
-        Что вас больше всего волнует?</string>
-    <string name="answer7_1">Введите ваш ответ</string>
+    <string name="q7">Which questions would you like to answer and which ones? What do you most care about?</string>
+    <string name="answer7_1">Enter your answer</string>
 
-    <string name="q8">Какое вознаграждение вы готовы дать астрологу/нумерологу за консультацию который
-        работает с известными личностями и звездами?</string>
+    <string name="q8">What kind of reward are you willing to give to an astrologer/numerologist for consulting with famous personalities and stars?</string>
     <string name="answer8_1">200$</string>
     <string name="answer8_2">300$</string>
     <string name="answer8_3">400$</string>
     <string name="answer8_4">500$</string>
-    <string name="answer8_5">Мне не важно работает ли астролог с известными личностями или нет.
-        Я не готова за это переплачивать</string>
+    <string name="answer8_5">I don\'t care if an astrologer works with famous personalities or not. I\'m not willing to overpay for it.</string>
 
-    <string name="q9">Что обязательно должно быть в приложении, чтобы вы им пользовались каждый день?</string>
-    <string name="answer9_1">Введите ваш ответ</string>
+    <string name="q9">What does the application have to be in order for you to use it every day?</string>
+    <string name="answer9_1">Enter your answer</string>
 
 
-    <string name="tvCongratulations">Поздравляем!\n\n
-    Вы успешно ответили на все вопросы!\n
-    Теперь вы получили
-        <font color='#FF4F90'>VIP-статус и 500 астробонусов</font>, которые
-        вы можете потратить на дополнительные услуги!
-    \n\nВ настоящее время приложение находится в разработке.
-        Мы оповестим вас уведомлением, когда приложение будет запущено и
-        вы сможете использовать полученные преимущества! Спасибо вам от</string>
-    <string name="view_the_interface">Посмотреть интерфейс</string>
+    <string name="tvCongratulations">Congratulations!\n\n
+    You have successfully answered all the questions!\n
+    Now you have received
+        <font color='#FF4F90'>VIP status and 500 astrobonuses</font>, which you can spend on additional services!
+    \n\nThe application is currently under development.
+        МWe will notify you when the application is launched and you can use the benefits! Thank you from</string>
+    <string name="view_the_interface">View the interface</string>
 </resources>
