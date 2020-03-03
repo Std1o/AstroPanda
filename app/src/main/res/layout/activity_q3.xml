@@ -7,6 +7,14 @@
     tools:context=".Q3Activity"
     android:background="@drawable/bg3">
 
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner2"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -16,7 +24,7 @@
         android:layout_marginTop="50dp"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
@@ -27,12 +35,12 @@
         android:text="Александр" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/imageView"
         android:layout_marginLeft="20dp"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/tvName"
         android:textColor="@color/colorAccent"
         android:text="32 года" />
 
