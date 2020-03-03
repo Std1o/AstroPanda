@@ -11,8 +11,8 @@
     <string name="push">Пройдите опрос</string>
     <string name="restart_for_changes">Изменения вступят в силу после перезапуска</string>
 
-    <string name="page1">Вопрос 1 из 9</string>
-    <string name="page2">Вопрос 2 из 9</string>
+    <string name="page1">Question 1 of 9</string>
+    <string name="page2">Question 2 of 9</string>
     <string name="page3">Вопрос 3 из 9</string>
     <string name="page4">Вопрос 4 из 9</string>
     <string name="page5">Вопрос 5 из 9</string>
@@ -49,17 +49,17 @@
     <string name="answer1_3">Numerology</string>
     <string name="answer1_4">Chiromancy (analysis by your hand)</string>
 
-    <string name="q2">Какие прогнозы на 2020 год вас больше всего интересуют?
-    \nВыберите не больше 2-х вариантов</string>
-    <string name="answer2_1">Прогноз по отношениям</string>
-    <string name="answer2_2">Прогноз по карьере</string>
-    <string name="answer2_3">Прогноз по здоровью</string>
-    <string name="answer2_4">Прогноз по деньгам</string>
-    <string name="answer2_5">Прогноз по удачным и неудачным дням</string>
-    <string name="answer2_6">Никакие</string>
-    <string name="answer2_7">Ваш вариант</string>
+    <string name="q2">Which predictions for 2020 are you most interested in?
+    \nChoose no more than 2 options</string>
+    <string name="answer2_1">Relationship Forecast</string>
+    <string name="answer2_2">Career Forecast</string>
+    <string name="answer2_3">Health Prognosis</string>
+    <string name="answer2_4">Money forecast</string>
+    <string name="answer2_5">Forecast of good and bad days</string>
+    <string name="answer2_6">None</string>
+    <string name="answer2_7">Your option</string>
 
-    <string name="q3">Отметьте что из этого вас интересует и чем бы вы пользовались
+    <string name="q3">Note what you are interested in and what you would use
     \nВыберите не больше 2-х вариантов</string>
     <string name="answer3_1">Эзотерика (чистка энергии, проверка сглазов и окружения на вампиризм)</string>
     <string name="answer3_2">Астро-знакомство (поиск мужчины исходя из ваших карт жизни, предназначений и истинных потребностей)</string>
