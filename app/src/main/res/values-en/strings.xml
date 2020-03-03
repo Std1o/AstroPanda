@@ -5,7 +5,7 @@
     <string name="empty_field">The field cannot be empty</string>
     <string name="next">Next</string>
     <string name="getVipBtn">Get VIP status</string>
-    <string name="taken">Вы заработали астробаллов</string>
+    <string name="taken">You\'ve earned astrobonuses</string>
     <string name="send">Send</string>
     <string name="push">Please take the survey</string>
     <string name="restart_for_changes">The changes will take effect after the restart</string>

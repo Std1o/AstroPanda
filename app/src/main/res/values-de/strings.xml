@@ -3,61 +3,60 @@
 
     <string name="err_no_selected">Ничего не выбрано</string>
     <string name="empty_field">Поле не может быть пустым</string>
-    <string name="next">Далее</string>
-    <string name="getVipBtn">Get VIP status</string>
-    <string name="taken">Вы заработали астробаллов</string>
+    <string name="next">Nächste</string>
+    <string name="getVipBtn">VIP-Status erhalten</string>
+    <string name="taken">Sie haben Astrobonus-Punkte verdient</string>
     <string name="send">Отправить</string>
     <string name="push">Пройдите опрос</string>
     <string name="restart_for_changes">Изменения вступят в силу после перезапуска</string>
 
-    <string name="page1">Вопрос 1 из 9</string>
-    <string name="page2">Вопрос 2 из 9</string>
-    <string name="page3">Вопрос 3 из 9</string>
-    <string name="page4">Вопрос 4 из 9</string>
-    <string name="page5">Вопрос 5 из 9</string>
-    <string name="page6">Вопрос 6 из 9</string>
-    <string name="page7">Вопрос 7 из 9</string>
-    <string name="page8">Вопрос 8 из 9</string>
-    <string name="page9">Вопрос 9 из 9</string>
+    <string name="page1">Frage 1 von 9</string>
+    <string name="page2">Frage 2 von 9</string>
+    <string name="page3">Frage 3 von 9</string>
+    <string name="page4">Frage 4 von 9</string>
+    <string name="page5">Frage 5 von 9</string>
+    <string name="page6">Frage 6 von 9</string>
+    <string name="page7">Frage 7 von 9</string>
+    <string name="page8">Frage 8 von 9</string>
+    <string name="page9">Frage 9 von 9</string>
 
     <string name="app_start_using">Начать использование</string>
 
     <!-- hintEt-->
-    <string name="etName">Представьтесь <font color='#FF4F90'>*</font></string>
-    <string name="etDate">Дата рождения <font color='#FF4F90'>*</font></string>
-    <string name="etPlace">Место рождения <font color='#FF4F90'>*</font></string>
-    <string name="etEmail">Ваш E-mail</string>
+    <string name="etName">Stellen Sie sich vor <font color='#FF4F90'>*</font></string>
+    <string name="etDate">Geburtsdatum <font color='#FF4F90'>*</font></string>
+    <string name="etPlace">Geburtsort <font color='#FF4F90'>*</font></string>
+    <string name="etEmail">Ihre E-Mail</string>
 
-    <string name="tvInfo">* - обязательные для заполнения</string>
+    <string name="tvInfo">* - Das Feld ist obligatorisch</string>
 
-    <string name="cbAccept">Принимаю условия соглашения на обработку персональных данных</string>
+    <string name="cbAccept">Ich akzeptiere die Bedingungen der Vereinbarung über die Verarbeitung personenbezogener Daten.</string>
 
     <!--GetVipActivity-->
-    <string name="tv1GetVip">Привет!\n\nМеня зовут AstroPanda и я помогу заглянуть в будущее!
-        Я объединяю в себе точные науки, передовые методы, современные технологии для познания себя,
-        своего будущего, будущего семьи и вашего окружения.\n\n
+    <string name="tv1GetVip">He!\n\nMein Name ist AstroPanda und ich werde Ihnen helfen, in die Zukunft zu schauen!
+        Ich bringe exakte Wissenschaften, beste Praktiken und moderne Technologie zusammen, um Sie selbst, Ihre Zukunft, die Zukunft Ihrer Familie und Ihre Umwelt kennen zu lernen.\n\n
 
-    Пройдите этот короткий опрос и получите по итогу
-        <font color='#FF4F90'>1050 астромонет-бонусов</font> в нашем приложении.
-        Ответьте на все вопросы и получите
-        <font color='#FF4F90'>VIP-статус в нашем приложении!</font></string>
+    Wenn Sie diese kurze Umfrage bestehen, erhalten Sie in unserem Antrag insgesamt
+        <font color='#FF4F90'>1050 Astromonet-Boni.</font>
+        Beantworten Sie alle Ihre Fragen und erhalten Sie in unserer Bewerbung den
+        <font color='#FF4F90'>VIP-Status!</font></string>
 
-    <string name="q1">Отметьте что из этого вас интересует и чем бы вы пользовались
-    \nВыберите не больше 2-х вариантов</string>
-    <string name="answer1_1">Персонализированный гороскоп на день/неделю</string>
-    <string name="answer1_2">Онлайн-консультации у профессиональных астрологов/нумерологов по любым вопросам</string>
-    <string name="answer1_3">Нумерология</string>
-    <string name="answer1_4">Хиромантия (анализ по вашей руке)</string>
+    <string name="q1">Wählen Sie aus, welche davon für Sie von Interesse sind und was Sie verwenden würden.
+    \nWählen Sie nicht mehr als 2 Optionen</string>
+    <string name="answer1_1">Personalisiertes Tages-/Wochenhoroskop</string>
+    <string name="answer1_2">Online-Konsultation mit professionellen Astrologen/Numerologen zu allen Fragen</string>
+    <string name="answer1_3">Numerologie</string>
+    <string name="answer1_4">Hiromantie (Analyse durch Ihre Hand)</string>
 
-    <string name="q2">Какие прогнозы на 2020 год вас больше всего интересуют?
-    \nВыберите не больше 2-х вариантов</string>
-    <string name="answer2_1">Прогноз по отношениям</string>
-    <string name="answer2_2">Прогноз по карьере</string>
-    <string name="answer2_3">Прогноз по здоровью</string>
-    <string name="answer2_4">Прогноз по деньгам</string>
-    <string name="answer2_5">Прогноз по удачным и неудачным дням</string>
-    <string name="answer2_6">Никакие</string>
-    <string name="answer2_7">Ваш вариант</string>
+    <string name="q2">Welche Vorhersagen für 2020 interessieren Sie am meisten?
+    \nWählen Sie nicht mehr als 2 Optionen</string>
+    <string name="answer2_1">Beziehungsprognose</string>
+    <string name="answer2_2">Karriere-Prognose</string>
+    <string name="answer2_3">Gesundheitsprognose</string>
+    <string name="answer2_4">Geldprognose</string>
+    <string name="answer2_5">Prognose von guten und schlechten Tagen</string>
+    <string name="answer2_6">Nein</string>
+    <string name="answer2_7">Ihre Option</string>
 
     <string name="q3">Отметьте что из этого вас интересует и чем бы вы пользовались
     \nВыберите не больше 2-х вариантов</string>
