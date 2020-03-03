@@ -60,28 +60,26 @@
     <string name="answer2_7">Your option</string>
 
     <string name="q3">Note what you are interested in and what you would use
-    \nВыберите не больше 2-х вариантов</string>
-    <string name="answer3_1">Эзотерика (чистка энергии, проверка сглазов и окружения на вампиризм)</string>
-    <string name="answer3_2">Астро-знакомство (поиск мужчины исходя из ваших карт жизни, предназначений и истинных потребностей)</string>
-    <string name="answer3_3">Фен-Шуй</string>
-    <string name="answer3_4">Ваш вариант</string>
+    \nChoose no more than 2 options</string>
+    <string name="answer3_1">Esoteric (energy cleansing, evil eye and environment testing for vampirism)</string>
+    <string name="answer3_2">Astro Dating (search for a partner based on your life maps, destinations and true needs)</string>
+    <string name="answer3_3">Feng Shui</string>
+    <string name="answer3_4">Your option</string>
 
-    <string name="q4">Как часто у вас возникают вопросы, на которые вам бы хотелось получить ответы от
-        профессиональных астрологов/нумерологов?</string>
-    <string name="answer4_1">1 раз в месяц</string>
-    <string name="answer4_2">2 раза в месяц</string>
-    <string name="answer4_3">1 раз в 3 месяца</string>
-    <string name="answer4_4">Не возникают  вообще</string>
-    <string name="answer4_5">Ваш вариант</string>
+    <string name="q4">How often do you have questions that you would like answers from professional astrologers/numerologists?</string>
+    <string name="answer4_1">Once a month</string>
+    <string name="answer4_2">Two times a month</string>
+    <string name="answer4_3">Once every 3 months.</string>
+    <string name="answer4_4">Doesn\'t at all.</string>
+    <string name="answer4_5">Your option</string>
 
-    <string name="q5">Какое вознаграждение вы готовы дать астрологу/нумерологу
-        за ответ на 1 волнующий вас вопрос?</string>
+    <string name="q5">What kind of reward are you willing to give to an astrologer/numerologist for answering 1 question that concerns you?</string>
     <string name="answer5_1">19$</string>
     <string name="answer5_2">29$</string>
     <string name="answer5_3">39$</string>
     <string name="answer5_4">49$</string>
     <string name="answer5_5">79$</string>
-    <string name="answer5_6">Ваш вариант</string>
+    <string name="answer5_6">Your option</string>
 
     <string name="q6">Интересно ли вам стать частью астрологического/эзотерического сообщества,
         в котором будут: мастер-классы от разных спикеров, новые темы для изучения, дискуссионные
