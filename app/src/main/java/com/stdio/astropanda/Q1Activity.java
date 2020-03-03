@@ -89,8 +89,8 @@ public class Q1Activity extends AppCompatActivity {
         tvName = findViewById(R.id.tvName);
         tvAge = findViewById(R.id.tvAge);
 
-        tvName.setText(MainActivity.name);
-        tvAge.setText(MainActivity.ageStr);
+        tvName.setText(new PrefManager(this).getName());
+        tvAge.setText(new PrefManager(this).getAge());
     }
 
     private void initSpinner() {

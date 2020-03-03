@@ -38,8 +38,6 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences languagePref;
     boolean isShowed = false;
     Button btnGetVip;
-    public static String name;
-    public static int age = 0;
     public static String ageStr;
     EditText etName, etDate, etMail;
     private Calendar c = Calendar.getInstance();
@@ -179,7 +177,8 @@ public class MainActivity extends AppCompatActivity {
     };
 
     public void onClick(View view) {
-        name = etName.getText().toString();
+        String name = etName.getText().toString();
+        int age = 0;
         String date = etDate.getText().toString();
         date = date.replace(".", "/").replace("-", "/");
         try {
@@ -202,7 +201,8 @@ public class MainActivity extends AppCompatActivity {
         else {
             ageStr = age + " лет";
         }
-        System.out.println(ageStr);
+        new PrefManager(this).setName(name);
+        new PrefManager(this).setAge(ageStr);
         MainActivity.message += name + " " + ageStr;
         startActivity(new Intent(this, GetVipActivity.class));
     }
