@@ -173,6 +173,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         name = etName.getText().toString();
+        String date = etDate.getText().toString();
+        date = date.replace(".", "-").replace("/", "-");
+        date = date.substring(date.lastIndexOf("-")+1);
+        System.out.println(date);
         startActivity(new Intent(this, GetVipActivity.class));
     }
 }
