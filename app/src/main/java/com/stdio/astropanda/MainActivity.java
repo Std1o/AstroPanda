@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnGetVip;
     public static String name;
     public static int age = 0;
+    public static String ageStr;
     EditText etName, etDate, etMail;
     private Calendar c = Calendar.getInstance();
     private Calendar now = Calendar.getInstance();
@@ -192,7 +193,17 @@ public class MainActivity extends AppCompatActivity {
         } catch (ParseException e) {
             e.printStackTrace();
         }
-        System.out.println(age);
+        if (age % 10 == 1){
+            ageStr = age + " год";
+        }
+        else if (age % 10 == 2 || age % 10 == 3 || age % 10 == 4){
+            ageStr = age + " года";
+        }
+        else {
+            ageStr = age + " лет";
+        }
+        System.out.println(ageStr);
+        MainActivity.message += name + " " + ageStr;
         startActivity(new Intent(this, GetVipActivity.class));
     }
 }

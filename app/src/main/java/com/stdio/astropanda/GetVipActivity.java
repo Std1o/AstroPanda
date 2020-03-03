@@ -30,6 +30,7 @@ public class GetVipActivity extends AppCompatActivity {
     ArrayList<Integer> images = new ArrayList<>();
     SharedPreferences languagePref;
     boolean isShowed = false;
+    TextView tvName, tvAge;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +46,7 @@ public class GetVipActivity extends AppCompatActivity {
 // Use conf.locale = new Locale(...) if targeting lower versions
         res.updateConfiguration(conf, dm);
         setContentView(R.layout.activity_get_vip);
+        initAndSetViews();
 
         images.add(R.drawable.en);
         images.add(R.drawable.de);
@@ -118,6 +120,14 @@ public class GetVipActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    private void initAndSetViews() {
+        tvName = findViewById(R.id.tvName);
+        tvAge = findViewById(R.id.tvAge);
+
+        tvName.setText(MainActivity.name);
+        tvAge.setText(MainActivity.ageStr);
     }
 
     public void onClick(View view) {
