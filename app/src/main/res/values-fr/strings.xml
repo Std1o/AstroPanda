@@ -58,23 +58,21 @@
     <string name="answer2_6">Non</string>
     <string name="answer2_7">Votre choix</string>
 
-    <string name="q3">Отметьте что de этого вас интересует и чем бы вы пользовались
+    <string name="q3">Notez ce qui vous intéresse et ce que vous utiliseriez
     \nNe choisissez pas plus de 2 options</string>
-    <string name="answer3_1">Эзотерика (чистка энергии, проверка сглазов и окружения на вампирdeм)</string>
-    <string name="answer3_2">Астро-знакомство (поиск мужчины исходя de ваших карт жdeни, предназначений и истинных потребностей)</string>
-    <string name="answer3_3">Фен-Шуй</string>
+    <string name="answer3_1">Ésotérique (nettoyage énergétique, mauvais œil et tests environnementaux pour le vampirisme)</string>
+    <string name="answer3_2">Astro Dating (recherche d\'un partenaire sur la base de vos cartes de vie, de vos destinations et de vos besoins réels)</string>
+    <string name="answer3_3">Feng Shui</string>
     <string name="answer3_4">Votre choix</string>
 
-    <string name="q4">Как часто у вас возникают Questionы, на которые вам бы хотелось получить ответы от
-        профессиональных астрологов/нумерологов?</string>
-    <string name="answer4_1">1 раз в месяц</string>
-    <string name="answer4_2">2 раза в месяц</string>
-    <string name="answer4_3">1 раз в 3 месяца</string>
-    <string name="answer4_4">Не возникают  вообще</string>
+    <string name="q4">À quelle fréquence avez-vous des questions auxquelles vous aimeriez obtenir des réponses de la part d\'astrologues/numérologues professionnels?</string>
+    <string name="answer4_1">Une fois par mois</string>
+    <string name="answer4_2">Deux fois par mois</string>
+    <string name="answer4_3">Une fois tous les 3 mois.</string>
+    <string name="answer4_4">Ce n\'est pas du tout le cas.</string>
     <string name="answer4_5">Votre choix</string>
 
-    <string name="q5">Какое вознаграждение вы готовы дать астрологу/нумерологу
-        за ответ на 1 волнующий вас Question?</string>
+    <string name="q5">Quel type de récompense êtes-vous prêt à donner à un astrologue/numérologue pour avoir répondu à une question qui vous concerne?</string>
     <string name="answer5_1">19$</string>
     <string name="answer5_2">29$</string>
     <string name="answer5_3">39$</string>
@@ -82,27 +80,22 @@
     <string name="answer5_5">79$</string>
     <string name="answer5_6">Votre choix</string>
 
-    <string name="q6">Интересно ли вам стать частью астрологического/эзотерического сообщества,
-        в котором будут: мастер-классы от разных спикеров, новые темы для deучения, дискуссионные
-        площадки, общение с единомышленниками через чаты и тд?</string>
-    <string name="answer6_1">Да</string>
-    <string name="answer6_2">Нет</string>
+    <string name="q6">Souhaitez-vous faire partie d\'une communauté astrologique/ ésotérique qui comprend : des master classes de différents intervenants, de nouveaux sujets à explorer, des plateformes de discussion, des salons de discussion avec des personnes partageant les mêmes intérêts, etc.?</string>
+    <string name="answer6_1">Oui</string>
+    <string name="answer6_2">Non</string>
 
-    <string name="q7">С какими Questionами вы бы хотели разобраться и на какие получить ответ?
-        Что вас больше всего волнует?</string>
-    <string name="answer7_1">Введите ваш ответ</string>
+    <string name="q7">A quelles questions souhaitez-vous répondre et lesquelles ? Qu\'est-ce qui vous intéresse le plus ?</string>
+    <string name="answer7_1">Votre choix</string>
 
-    <string name="q8">Какое вознаграждение вы готовы дать астрологу/нумерологу за консультацию который
-        работает с deвестными личностями и звездами?</string>
+    <string name="q8">Quel genre de récompense êtes-vous prêt à donner à un astrologue/numérologue pour avoir consulté des personnalités et des étoiles célèbres?</string>
     <string name="answer8_1">200$</string>
     <string name="answer8_2">300$</string>
     <string name="answer8_3">400$</string>
     <string name="answer8_4">500$</string>
-    <string name="answer8_5">Мне не важно работает ли астролог с deвестными личностями или нет.
-        Я не готова за это переплачивать</string>
+    <string name="answer8_5">Je me moque qu\'un astrologue travaille avec des personnalités célèbres ou non. Je ne suis pas prêt à payer trop cher pour cela.</string>
 
-    <string name="q9">Что обязательно должно быть в приложении, чтобы вы им пользовались каждый день?</string>
-    <string name="answer9_1">Введите ваш ответ</string>
+    <string name="q9">Que doit être l\'application pour que vous puissiez l\'utiliser tous les jours?</string>
+    <string name="answer9_1">Votre choix</string>
 
 
     <string name="tvCongratulations">Поздравляем!\n\n
