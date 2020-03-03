@@ -3,103 +3,102 @@
 
     <string name="err_no_selected">Ничего не выбрано</string>
     <string name="empty_field">Поле не может быть пустым</string>
-    <string name="next">Далее</string>
-    <string name="getVipBtn">Get VIP status</string>
-    <string name="taken">Вы заработали астробаллов</string>
+    <string name="next">Avanti</string>
+    <string name="getVipBtn">Ottenere lo status VIP</string>
+    <string name="taken">Hai guadagnato degli astroboni</string>
     <string name="send">Отправить</string>
     <string name="push">Пройдите опрос</string>
-    <string name="restart_for_changes">Изменения вступят в силу после перезапуска</string>
+    <string name="restart_for_changes">diменения вступят в силу после перезапуска</string>
 
-    <string name="page1">Вопрос 1 из 9</string>
-    <string name="page2">Вопрос 2 из 9</string>
-    <string name="page3">Вопрос 3 из 9</string>
-    <string name="page4">Вопрос 4 из 9</string>
-    <string name="page5">Вопрос 5 из 9</string>
-    <string name="page6">Вопрос 6 из 9</string>
-    <string name="page7">Вопрос 7 из 9</string>
-    <string name="page8">Вопрос 8 из 9</string>
-    <string name="page9">Вопрос 9 из 9</string>
+    <string name="page1">Domanda 1 di 9</string>
+    <string name="page2">Domanda 2 di 9</string>
+    <string name="page3">Domanda 3 di 9</string>
+    <string name="page4">Domanda 4 di 9</string>
+    <string name="page5">Domanda 5 di 9</string>
+    <string name="page6">Domanda 6 di 9</string>
+    <string name="page7">Domanda 7 di 9</string>
+    <string name="page8">Domanda 8 di 9</string>
+    <string name="page9">Domanda 9 di 9</string>
 
-    <string name="app_start_using">Начать использование</string>
+    <string name="app_start_using">Iniziare a utilizzare</string>
 
     <!-- hintEt-->
-    <string name="etName">Представьтесь <font color='#FF4F90'>*</font></string>
-    <string name="etDate">Дата рождения <font color='#FF4F90'>*</font></string>
-    <string name="etPlace">Место рождения <font color='#FF4F90'>*</font></string>
-    <string name="etEmail">Ваш E-mail</string>
+    <string name="etName">Presentarsi <font color='#FF4F90'>*</font></string>
+    <string name="etDate">Data di nascita <font color='#FF4F90'>*</font></string>
+    <string name="etPlace">Luogo di nascita <font color='#FF4F90'>*</font></string>
+    <string name="etEmail">La tua e-mail</string>
 
-    <string name="tvInfo">* - обязательные для заполнения</string>
+    <string name="tvInfo">* - Il campo è obbligatorio</string>
 
-    <string name="cbAccept">Принимаю условия соглашения на обработку персональных данных</string>
+    <string name="cbAccept">Accetto i termini dell\'accordo sul trattamento dei dati personali</string>
 
     <!--GetVipActivity-->
-    <string name="tv1GetVip">Привет!\n\nМеня зовут AstroPanda и я помогу заглянуть в будущее!
-        Я объединяю в себе точные науки, передовые методы, современные технологии для познания себя,
-        своего будущего, будущего семьи и вашего окружения.\n\n
+    <string name="tv1GetVip">Ehi!\n\nMi chiamo AstroPanda e vi aiuterò a guardare nel futuro!
+        Metto insieme le scienze esatte, le migliori pratiche e la tecnologia moderna per conoscere te stesso, il tuo futuro, il futuro della tua famiglia e il tuo ambiente.\n\n
 
-    Пройдите этот короткий опрос и получите по итогу
-        <font color='#FF4F90'>1050 астромонет-бонусов</font> в нашем приложении.
-        Ответьте на все вопросы и получите
-        <font color='#FF4F90'>VIP-статус в нашем приложении!</font></string>
+    Passa questo breve sondaggio e riceverai un totale
+        <font color='#FF4F90'>di 1050 bonus Astromonet</font> nella nostra domanda.
+        Rispondi a tutte le tue domande e ottieni lo
+        <font color='#FF4F90'>status di VIP nella nostra domanda!</font></string>
 
-    <string name="q1">Отметьте что из этого вас интересует и чем бы вы пользовались
-    \nВыберите не больше 2-х вариантов</string>
-    <string name="answer1_1">Персонализированный гороскоп на день/неделю</string>
-    <string name="answer1_2">Онлайн-консультации у профессиональных астрологов/нумерологов по любым вопросам</string>
-    <string name="answer1_3">Нумерология</string>
-    <string name="answer1_4">Хиромантия (анализ по вашей руке)</string>
+    <string name="q1">Scegliete quali di questi sono di vostro interesse e cosa usereste.
+    \nScegliere non più di 2 opzioni</string>
+    <string name="answer1_1">Oroscopo personalizzato giorno/settimana</string>
+    <string name="answer1_2">Consulenza online con astrologi/numerologi professionisti per qualsiasi domanda</string>
+    <string name="answer1_3">Numerologia</string>
+    <string name="answer1_4">Chiromanzia (analisi a mano)</string>
 
-    <string name="q2">Какие прогнозы на 2020 год вас больше всего интересуют?
-    \nВыберите не больше 2-х вариантов</string>
-    <string name="answer2_1">Прогноз по отношениям</string>
-    <string name="answer2_2">Прогноз по карьере</string>
-    <string name="answer2_3">Прогноз по здоровью</string>
-    <string name="answer2_4">Прогноз по деньгам</string>
-    <string name="answer2_5">Прогноз по удачным и неудачным дням</string>
-    <string name="answer2_6">Никакие</string>
-    <string name="answer2_7">Ваш вариант</string>
+    <string name="q2">Quali sono le previsioni per il 2020 che ti interessano di più?
+    \nScegliere non più di 2 opzioni</string>
+    <string name="answer2_1">Previsioni sulle relazioni</string>
+    <string name="answer2_2">Previsioni di carriera</string>
+    <string name="answer2_3">Prognosi della salute</string>
+    <string name="answer2_4">Previsione di denaro</string>
+    <string name="answer2_5">Previsione di giorni buoni e cattivi</string>
+    <string name="answer2_6">No</string>
+    <string name="answer2_7">La vostra opzione</string>
 
-    <string name="q3">Отметьте что из этого вас интересует и чем бы вы пользовались
-    \nВыберите не больше 2-х вариантов</string>
-    <string name="answer3_1">Эзотерика (чистка энергии, проверка сглазов и окружения на вампиризм)</string>
-    <string name="answer3_2">Астро-знакомство (поиск мужчины исходя из ваших карт жизни, предназначений и истинных потребностей)</string>
+    <string name="q3">Отметьте что di этого вас интересует и чем бы вы пользовались
+    \nScegliere non più di 2 opzioni</string>
+    <string name="answer3_1">Эзотерика (чистка энергии, проверка сглазов и окружения на вампирdiм)</string>
+    <string name="answer3_2">Астро-знакомство (поиск мужчины исходя di ваших карт жdiни, предназначений и истинных потребностей)</string>
     <string name="answer3_3">Фен-Шуй</string>
-    <string name="answer3_4">Ваш вариант</string>
+    <string name="answer3_4">La vostra opzione</string>
 
-    <string name="q4">Как часто у вас возникают вопросы, на которые вам бы хотелось получить ответы от
+    <string name="q4">Как часто у вас возникают Domandaы, на которые вам бы хотелось получить ответы от
         профессиональных астрологов/нумерологов?</string>
     <string name="answer4_1">1 раз в месяц</string>
     <string name="answer4_2">2 раза в месяц</string>
     <string name="answer4_3">1 раз в 3 месяца</string>
     <string name="answer4_4">Не возникают  вообще</string>
-    <string name="answer4_5">Ваш вариант</string>
+    <string name="answer4_5">La vostra opzione</string>
 
     <string name="q5">Какое вознаграждение вы готовы дать астрологу/нумерологу
-        за ответ на 1 волнующий вас вопрос?</string>
+        за ответ на 1 волнующий вас Domanda?</string>
     <string name="answer5_1">19$</string>
     <string name="answer5_2">29$</string>
     <string name="answer5_3">39$</string>
     <string name="answer5_4">49$</string>
     <string name="answer5_5">79$</string>
-    <string name="answer5_6">Ваш вариант</string>
+    <string name="answer5_6">La vostra opzione</string>
 
     <string name="q6">Интересно ли вам стать частью астрологического/эзотерического сообщества,
-        в котором будут: мастер-классы от разных спикеров, новые темы для изучения, дискуссионные
+        в котором будут: мастер-классы от разных спикеров, новые темы для diучения, дискуссионные
         площадки, общение с единомышленниками через чаты и тд?</string>
     <string name="answer6_1">Да</string>
     <string name="answer6_2">Нет</string>
 
-    <string name="q7">С какими вопросами вы бы хотели разобраться и на какие получить ответ?
+    <string name="q7">С какими Domandaами вы бы хотели разобраться и на какие получить ответ?
         Что вас больше всего волнует?</string>
     <string name="answer7_1">Введите ваш ответ</string>
 
     <string name="q8">Какое вознаграждение вы готовы дать астрологу/нумерологу за консультацию который
-        работает с известными личностями и звездами?</string>
+        работает с diвестными личностями и звездами?</string>
     <string name="answer8_1">200$</string>
     <string name="answer8_2">300$</string>
     <string name="answer8_3">400$</string>
     <string name="answer8_4">500$</string>
-    <string name="answer8_5">Мне не важно работает ли астролог с известными личностями или нет.
+    <string name="answer8_5">Мне не важно работает ли астролог с diвестными личностями или нет.
         Я не готова за это переплачивать</string>
 
     <string name="q9">Что обязательно должно быть в приложении, чтобы вы им пользовались каждый день?</string>
@@ -107,7 +106,7 @@
 
 
     <string name="tvCongratulations">Поздравляем!\n\n
-    Вы успешно ответили на все вопросы!\n
+    Вы успешно ответили на все Domandaы!\n
     Теперь вы получили
         <font color='#FF4F90'>VIP-статус и 500 астробонусов</font>, которые
         вы можете потратить на дополнительные услуги!
