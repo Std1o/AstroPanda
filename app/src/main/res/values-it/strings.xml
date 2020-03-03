@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">AstroPanda</string>
 
-    <string name="err_no_selected">Ничего не выбрано</string>
-    <string name="empty_field">Поле не может быть пустым</string>
+    <string name="err_no_selected">Niente selezionato</string>
+    <string name="empty_field">Il campo non può essere vuoto</string>
     <string name="next">Avanti</string>
     <string name="getVipBtn">Ottenere lo status VIP</string>
     <string name="taken">Hai guadagnato degli astroboni</string>
-    <string name="send">Отправить</string>
-    <string name="push">Пройдите опрос</string>
-    <string name="restart_for_changes">diменения вступят в силу после перезапуска</string>
+    <string name="send">Inviare</string>
+    <string name="push">Si prega di prendere il sondaggio</string>
+    <string name="restart_for_changes">Le modifiche avranno effetto dopo il riavvio</string>
 
     <string name="page1">Domanda 1 di 9</string>
     <string name="page2">Domanda 2 di 9</string>
@@ -87,26 +87,22 @@
     <string name="q7">A quali domande vorresti rispondere e a quali? A cosa ti interessa di più?</string>
     <string name="answer7_1">La vostra opzione</string>
 
-    <string name="q8">Какое вознаграждение вы готовы дать астрологу/нумерологу за консультацию который
-        работает с diвестными личностями и звездами?</string>
+    <string name="q8">Che tipo di ricompensa sei disposto a dare ad un astrologo/numerologo per aver consultato personaggi famosi e star?</string>
     <string name="answer8_1">200$</string>
     <string name="answer8_2">300$</string>
     <string name="answer8_3">400$</string>
     <string name="answer8_4">500$</string>
-    <string name="answer8_5">Мне не важно работает ли астролог с diвестными личностями или нет.
-        Я не готова за это переплачивать</string>
+    <string name="answer8_5">Non mi interessa se un astrologo lavora con personaggi famosi o meno. Non sono disposto a pagare troppo.</string>
 
-    <string name="q9">Что обязательно должно быть в приложении, чтобы вы им пользовались каждый день?</string>
+    <string name="q9">Cosa deve essere l\'applicazione per poterla utilizzare ogni giorno?</string>
     <string name="answer9_1">La vostra opzione</string>
 
 
-    <string name="tvCongratulations">Поздравляем!\n\n
-    Вы успешно ответили на все Domandaы!\n
-    Теперь вы получили
-        <font color='#FF4F90'>VIP-статус и 500 астробонусов</font>, которые
-        вы можете потратить на дополнительные услуги!
-    \n\nВ настоящее время приложение находится в разработке.
-        Мы оповестим вас уведомлением, когда приложение будет запущено и
-        вы сможете использовать полученные преимущества! Спасибо вам от</string>
-    <string name="view_the_interface">Посмотреть интерфейс</string>
+    <string name="tvCongratulations">Congratulazioni!\n\n
+    Hai risposto con successo a tutte le domande!\n
+    Ora hai ricevuto
+        <font color='#FF4F90'>lo status VIP e 500 astrobonus</font>, che puoi spendere per servizi aggiuntivi!
+    \n\nL'applicazione è attualmente in fase di sviluppo.
+        Vi informeremo quando l'applicazione viene lanciata e potrete utilizzare i vantaggi! Grazie da AstroPanda!</string>
+    <string name="view_the_interface">Visualizza l\'interfaccia</string>
 </resources>
