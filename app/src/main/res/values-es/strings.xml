@@ -3,9 +3,9 @@
 
     <string name="err_no_selected">Ничего не выбрано</string>
     <string name="empty_field">Поле не может быть пустым</string>
-    <string name="next">Далее</string>
+    <string name="next">Siguiente</string>
     <string name="getVipBtn">Obtenga el estatus VIP</string>
-    <string name="taken">Вы заработали астробаллов</string>
+    <string name="taken">Te has ganado los astrobonos</string>
     <string name="send">Отправить</string>
     <string name="push">Пройдите опрос</string>
     <string name="restart_for_changes">deменения вступят в силу после перезапуска</string>
@@ -48,49 +48,44 @@
     <string name="answer1_3">Numerología</string>
     <string name="answer1_4">Quiromancia (análisis de su mano)</string>
 
-    <string name="q2">Какие прогнозы на 2020 год вас больше всего интересуют?
+    <string name="q2">¿Qué predicciones para el 2020 le interesan más?
     \nElija no más de 2 opciones</string>
-    <string name="answer2_1">Прогноз по отношениям</string>
-    <string name="answer2_2">Прогноз по карьере</string>
-    <string name="answer2_3">Прогноз по здоровью</string>
-    <string name="answer2_4">Прогноз по деньгам</string>
-    <string name="answer2_5">Прогноз по удачным и неудачным дням</string>
-    <string name="answer2_6">Никакие</string>
-    <string name="answer2_7">Ваш вариант</string>
+    <string name="answer2_1">Previsión de relaciones</string>
+    <string name="answer2_2">Pronóstico de la carrera</string>
+    <string name="answer2_3">Pronóstico de salud</string>
+    <string name="answer2_4">Previsión de dinero</string>
+    <string name="answer2_5">Pronóstico de días buenos y malos</string>
+    <string name="answer2_6">No</string>
+    <string name="answer2_7">Su opción</string>
 
-    <string name="q3">Отметьте что de этого вас интересует и чем бы вы пользовались
+    <string name="q3">Anote lo que le interesa y lo que usaría
     \nElija no más de 2 opciones</string>
-    <string name="answer3_1">Эзотерика (чистка энергии, проверка сглазов и окружения на вампирdeм)</string>
-    <string name="answer3_2">Астро-знакомство (поиск мужчины исходя de ваших карт жdeни, предназначений и истинных потребностей)</string>
-    <string name="answer3_3">Фен-Шуй</string>
-    <string name="answer3_4">Ваш вариант</string>
+    <string name="answer3_1">Esotérico (limpieza de energía, mal de ojo y pruebas ambientales para el vampirismo)</string>
+    <string name="answer3_2">Astro Citas (búsqueda de pareja basada en sus mapas de vida, destinos y necesidades reales)</string>
+    <string name="answer3_3">Feng Shui</string>
+    <string name="answer3_4">Su opción</string>
 
-    <string name="q4">Как часто у вас возникают Preguntaы, на которые вам бы хотелось получить ответы от
-        профессиональных астрологов/нумерологов?</string>
-    <string name="answer4_1">1 раз в месяц</string>
-    <string name="answer4_2">2 раза в месяц</string>
-    <string name="answer4_3">1 раз в 3 месяца</string>
-    <string name="answer4_4">Не возникают  вообще</string>
-    <string name="answer4_5">Ваш вариант</string>
+    <string name="q4">¿Con qué frecuencia tiene preguntas que le gustaría que le respondieran los astrólogos/numerólogos profesionales?</string>
+    <string name="answer4_1">Una vez al mes.</string>
+    <string name="answer4_2">Dos veces al mes</string>
+    <string name="answer4_3">Una vez cada 3 meses.</string>
+    <string name="answer4_4">No lo hace en absoluto.</string>
+    <string name="answer4_5">Su opción</string>
 
-    <string name="q5">Какое вознаграждение вы готовы дать астрологу/нумерологу
-        за ответ на 1 волнующий вас Pregunta?</string>
+    <string name="q5">¿Qué clase de recompensa está dispuesto a dar a un astrólogo/numerólogo por responder a una pregunta que le concierne?</string>
     <string name="answer5_1">19$</string>
     <string name="answer5_2">29$</string>
     <string name="answer5_3">39$</string>
     <string name="answer5_4">49$</string>
     <string name="answer5_5">79$</string>
-    <string name="answer5_6">Ваш вариант</string>
+    <string name="answer5_6">Su opción</string>
 
-    <string name="q6">Интересно ли вам стать частью астрологического/эзотерического сообщества,
-        в котором будут: мастер-классы от разных спикеров, новые темы для deучения, дискуссионные
-        площадки, общение с единомышленниками через чаты и тд?</string>
-    <string name="answer6_1">Да</string>
-    <string name="answer6_2">Нет</string>
+    <string name="q6">¿Está interesado en formar parte de una comunidad astrológica/esotérica que incluya: clases magistrales de diferentes conferenciantes, nuevos temas a explorar, plataformas de discusión, salas de chat con personas afines, etc.?</string>
+    <string name="answer6_1">Sí</string>
+    <string name="answer6_2">No lo hace en absoluto.</string>
 
-    <string name="q7">С какими Preguntaами вы бы хотели разобраться и на какие получить ответ?
-        Что вас больше всего волнует?</string>
-    <string name="answer7_1">Введите ваш ответ</string>
+    <string name="q7">¿Qué preguntas te gustaría responder y cuáles? ¿Qué es lo que más le interesa?</string>
+    <string name="answer7_1">Su opción</string>
 
     <string name="q8">Какое вознаграждение вы готовы дать астрологу/нумерологу за консультацию который
         работает с deвестными личностями и звездами?</string>
@@ -102,7 +97,7 @@
         Я не готова за это переплачивать</string>
 
     <string name="q9">Что обязательно должно быть в приложении, чтобы вы им пользовались каждый день?</string>
-    <string name="answer9_1">Введите ваш ответ</string>
+    <string name="answer9_1">Su opción</string>
 
 
     <string name="tvCongratulations">Поздравляем!\n\n
