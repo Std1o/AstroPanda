@@ -4,7 +4,7 @@
     <string name="err_no_selected">Ничего не выбрано</string>
     <string name="empty_field">Поле не может быть пустым</string>
     <string name="next">Далее</string>
-    <string name="getVipBtn">Get VIP status</string>
+    <string name="getVipBtn">Obtenir le statut de VIP</string>
     <string name="taken">Вы заработали астробаллов</string>
     <string name="send">Отправить</string>
     <string name="push">Пройдите опрос</string>
@@ -20,27 +20,26 @@
     <string name="page8">Вопрос 8 из 9</string>
     <string name="page9">Вопрос 9 из 9</string>
 
-    <string name="app_start_using">Начать использование</string>
+    <string name="app_start_using">Commencez à utiliser</string>
 
     <!-- hintEt-->
-    <string name="etName">Представьтесь <font color='#FF4F90'>*</font></string>
-    <string name="etDate">Дата рождения <font color='#FF4F90'>*</font></string>
-    <string name="etPlace">Место рождения <font color='#FF4F90'>*</font></string>
-    <string name="etEmail">Ваш E-mail</string>
+    <string name="etName">Présentez-vous <font color='#FF4F90'>*</font></string>
+    <string name="etDate">Date de naissance <font color='#FF4F90'>*</font></string>
+    <string name="etPlace">Lieu de naissance <font color='#FF4F90'>*</font></string>
+    <string name="etEmail">Votre adresse électronique</string>
 
-    <string name="tvInfo">* - обязательные для заполнения</string>
+    <string name="tvInfo">* - Le champ est obligatoire</string>
 
-    <string name="cbAccept">Принимаю условия соглашения на обработку персональных данных</string>
+    <string name="cbAccept">J\'accepte les termes de l\'accord sur le traitement des données à caractère personnel</string>
 
     <!--GetVipActivity-->
-    <string name="tv1GetVip">Привет!\n\nМеня зовут AstroPanda и я помогу заглянуть в будущее!
-        Я объединяю в себе точные науки, передовые методы, современные технологии для познания себя,
-        своего будущего, будущего семьи и вашего окружения.\n\n
+    <string name="tv1GetVip">Hé!\n\nJe m\'appelle AstroPanda et je vais vous aider à regarder vers l\'avenir!
+        Je rassemble les sciences exactes, les meilleures pratiques et la technologie moderne pour vous connaître, vous, votre avenir, celui de votre famille et votre environnement.\n\n
 
-    Пройдите этот короткий опрос и получите по итогу
-        <font color='#FF4F90'>1050 астромонет-бонусов</font> в нашем приложении.
-        Ответьте на все вопросы и получите
-        <font color='#FF4F90'>VIP-статус в нашем приложении!</font></string>
+    Veuillez répondre à cette courte enquête et vous recevrez un total de
+        <font color='#FF4F90'>1050 primes Astromonet</font> dans notre application.
+        Répondez à toutes vos questions et obtenez
+        <font color='#FF4F90'>le statut VIP dans notre application!</font></string>
 
     <string name="q1">Отметьте что из этого вас интересует и чем бы вы пользовались
     \nВыберите не больше 2-х вариантов</string>
