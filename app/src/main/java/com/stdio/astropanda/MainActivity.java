@@ -19,6 +19,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -34,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences languagePref;
     boolean isShowed = false;
     Button btnGetVip;
+    public static String name;
+    public static int yo = 0;
+    EditText etName, etDate, etMail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,9 +73,7 @@ public class MainActivity extends AppCompatActivity {
         res.updateConfiguration(conf, dm);
         setContentView(R.layout.activity_main);
 
-        btnGetVip = findViewById(R.id.btnGetVip);
-        CheckBox checkBox = findViewById(R.id.checkBox);
-        checkBox.setOnClickListener(CheckBoxClickListener);
+        initViews();
 
         images.add(R.drawable.en);
         images.add(R.drawable.de);
@@ -147,6 +149,15 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void initViews() {
+        btnGetVip = findViewById(R.id.btnGetVip);
+        CheckBox checkBox = findViewById(R.id.checkBox);
+        checkBox.setOnClickListener(CheckBoxClickListener);
+        etName = findViewById(R.id.etName);
+        etDate = findViewById(R.id.etDate);
+        etMail = findViewById(R.id.etMail);
+    }
+
     View.OnClickListener CheckBoxClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -161,6 +172,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     public void onClick(View view) {
+        name = etName.getText().toString();
         startActivity(new Intent(this, GetVipActivity.class));
     }
 }
