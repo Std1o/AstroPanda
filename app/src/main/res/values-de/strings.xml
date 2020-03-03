@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">AstroPanda</string>
 
-    <string name="err_no_selected">Ничего не выбрано</string>
-    <string name="empty_field">Поле не может быть пустым</string>
+    <string name="err_no_selected">Nichts ausgewählt</string>
+    <string name="empty_field">Das Feld darf nicht leer sein</string>
     <string name="next">Nächste</string>
     <string name="getVipBtn">VIP-Status erhalten</string>
     <string name="taken">Sie haben Astrobonus-Punkte verdient</string>
-    <string name="send">Отправить</string>
-    <string name="push">Пройдите опрос</string>
-    <string name="restart_for_changes">Изменения вступят в силу после перезапуска</string>
+    <string name="send">Senden</string>
+    <string name="push">Bitte nehmen Sie die Umfrage</string>
+    <string name="restart_for_changes">Die änderungen treten nach dem Neustart in Kraft</string>
 
     <string name="page1">Frage 1 von 9</string>
     <string name="page2">Frage 2 von 9</string>
@@ -20,7 +20,7 @@
     <string name="page8">Frage 8 von 9</string>
     <string name="page9">Frage 9 von 9</string>
 
-    <string name="app_start_using">Начать использование</string>
+    <string name="app_start_using">Beginnen Sie mit</string>
 
     <!-- hintEt-->
     <string name="etName">Stellen Sie sich vor <font color='#FF4F90'>*</font></string>
@@ -98,13 +98,11 @@
     <string name="answer9_1">Ihre Option</string>
 
 
-    <string name="tvCongratulations">Поздравляем!\n\n
-    Вы успешно ответили на все вопросы!\n
-    Теперь вы получили
-        <font color='#FF4F90'>VIP-статус и 500 астробонусов</font>, которые
-        вы можете потратить на дополнительные услуги!
-    \n\nВ настоящее время приложение находится в разработке.
-        Мы оповестим вас уведомлением, когда приложение будет запущено и
-        вы сможете использовать полученные преимущества! Спасибо вам от</string>
-    <string name="view_the_interface">Посмотреть интерфейс</string>
+    <string name="tvCongratulations">Herzlichen Glückwunsch!\n\n
+    Sie haben alle Fragen erfolgreich beantwortet!\n
+    Jetzt haben Sie den
+        <font color='#FF4F90'>VIP-Status und 500 Astro-Boni erhalten</font>, die Sie für zusätzliche Dienstleistungen ausgeben können!
+    \n\nDie Anwendung befindet sich derzeit in der Entwicklung.
+        Wir werden Sie benachrichtigen, wenn die Anwendung gestartet wird, und Sie können die Vorteile nutzen! Vielen Dank von</string>
+    <string name="view_the_interface">Sehen Sie sich die Schnittstelle an</string>
 </resources>
