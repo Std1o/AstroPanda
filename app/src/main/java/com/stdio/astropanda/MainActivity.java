@@ -17,6 +17,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Integer> images = new ArrayList<>();
     SharedPreferences languagePref;
     boolean isShowed = false;
+    Button btnGetVip;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +68,10 @@ public class MainActivity extends AppCompatActivity {
 // Use conf.locale = new Locale(...) if targeting lower versions
         res.updateConfiguration(conf, dm);
         setContentView(R.layout.activity_main);
+
+        btnGetVip = findViewById(R.id.btnGetVip);
+        CheckBox checkBox = findViewById(R.id.checkBox);
+        checkBox.setOnClickListener(CheckBoxClickListener);
 
         images.add(R.drawable.en);
         images.add(R.drawable.de);
@@ -139,6 +146,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    View.OnClickListener CheckBoxClickListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            CheckBox checkBox = (CheckBox)v;
+            if (checkBox.isChecked()) {
+                btnGetVip.setEnabled(true);
+            }
+            else {
+                btnGetVip.setEnabled(false);
+            }
+        }
+    };
 
     public void onClick(View view) {
         startActivity(new Intent(this, GetVipActivity.class));

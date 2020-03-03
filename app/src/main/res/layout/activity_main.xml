@@ -92,6 +92,7 @@
             android:text="@string/cbAccept"
             android:layout_marginLeft="35dp"
             android:layout_marginRight="35dp"
+            android:checked="true"
             android:textColor="#8977B1" />
     </LinearLayout>
 
