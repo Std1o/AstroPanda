@@ -23,7 +23,10 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
@@ -36,8 +39,11 @@ public class MainActivity extends AppCompatActivity {
     boolean isShowed = false;
     Button btnGetVip;
     public static String name;
-    public static int yo = 0;
+    public static int age = 0;
     EditText etName, etDate, etMail;
+    private Calendar c = Calendar.getInstance();
+    private Calendar now = Calendar.getInstance();
+    private SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -174,9 +180,19 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         name = etName.getText().toString();
         String date = etDate.getText().toString();
-        date = date.replace(".", "-").replace("/", "-");
-        date = date.substring(date.lastIndexOf("-")+1);
-        System.out.println(date);
+        date = date.replace(".", "/").replace("-", "/");
+        try {
+            c.setTime(dateFormat.parse(date));
+            age = now.get(Calendar.YEAR) - c.get(Calendar.YEAR);
+            if (now.get(Calendar.DAY_OF_YEAR) < c.get(Calendar.DAY_OF_YEAR)) {
+                age--;
+            }
+            String idade = Integer.toString(age);
+            etDate.setText(idade);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        System.out.println(age);
         startActivity(new Intent(this, GetVipActivity.class));
     }
 }
