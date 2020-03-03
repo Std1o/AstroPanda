@@ -84,21 +84,18 @@
     <string name="answer6_1">Ja</string>
     <string name="answer6_2">Nein</string>
 
-    <string name="q7">С какими вопросами вы бы хотели разобраться и на какие получить ответ?
-        Что вас больше всего волнует?</string>
-    <string name="answer7_1">Введите ваш ответ</string>
+    <string name="q7">Welche Fragen möchten Sie beantworten und welche? Was interessiert Sie am meisten?</string>
+    <string name="answer7_1">Ihre Option</string>
 
-    <string name="q8">Какое вознаграждение вы готовы дать астрологу/нумерологу за консультацию который
-        работает с известными личностями и звездами?</string>
+    <string name="q8">Welche Art von Belohnung sind Sie bereit, einem Astrologen/Numerologen für die Beratung mit berühmten Persönlichkeiten und Stars zu geben?</string>
     <string name="answer8_1">200$</string>
     <string name="answer8_2">300$</string>
     <string name="answer8_3">400$</string>
     <string name="answer8_4">500$</string>
-    <string name="answer8_5">Мне не важно работает ли астролог с известными личностями или нет.
-        Я не готова за это переплачивать</string>
+    <string name="answer8_5">Es ist mir egal, ob ein Astrologe mit berühmten Persönlichkeiten arbeitet oder nicht. Ich bin nicht bereit, zu viel dafür zu bezahlen.</string>
 
-    <string name="q9">Что обязательно должно быть в приложении, чтобы вы им пользовались каждый день?</string>
-    <string name="answer9_1">Введите ваш ответ</string>
+    <string name="q9">Was muss die Anwendung sein, damit Sie sie täglich benutzen können?</string>
+    <string name="answer9_1">Ihre Option</string>
 
 
     <string name="tvCongratulations">Поздравляем!\n\n
