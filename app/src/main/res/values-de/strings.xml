@@ -58,35 +58,31 @@
     <string name="answer2_6">Nein</string>
     <string name="answer2_7">Ihre Option</string>
 
-    <string name="q3">Отметьте что из этого вас интересует и чем бы вы пользовались
-    \nВыберите не больше 2-х вариантов</string>
-    <string name="answer3_1">Эзотерика (чистка энергии, проверка сглазов и окружения на вампиризм)</string>
-    <string name="answer3_2">Астро-знакомство (поиск мужчины исходя из ваших карт жизни, предназначений и истинных потребностей)</string>
-    <string name="answer3_3">Фен-Шуй</string>
-    <string name="answer3_4">Ваш вариант</string>
+    <string name="q3">Notieren Sie, was Sie interessiert und was Sie verwenden würden
+    \nWählen Sie nicht mehr als 2 Optionen</string>
+    <string name="answer3_1">Esoterisch (Energie-Reinigung, böser Blick und Umweltprüfung auf Vampirismus)</string>
+    <string name="answer3_2">Astro-Dating (Suche nach einem Partner auf der Grundlage Ihrer Lebenskarten, Reiseziele und wahren Bedürfnisse)</string>
+    <string name="answer3_3">Feng Shui</string>
+    <string name="answer3_4">Ihre Option</string>
 
-    <string name="q4">Как часто у вас возникают вопросы, на которые вам бы хотелось получить ответы от
-        профессиональных астрологов/нумерологов?</string>
-    <string name="answer4_1">1 раз в месяц</string>
-    <string name="answer4_2">2 раза в месяц</string>
-    <string name="answer4_3">1 раз в 3 месяца</string>
-    <string name="answer4_4">Не возникают  вообще</string>
-    <string name="answer4_5">Ваш вариант</string>
+    <string name="q4">Wie oft haben Sie Fragen, die Sie von professionellen Astrologen/Numerologen beantwortet haben möchten?</string>
+    <string name="answer4_1">Einmal im Monat</string>
+    <string name="answer4_2">Zwei Mal im Monat</string>
+    <string name="answer4_3">Einmal alle 3 Monate.</string>
+    <string name="answer4_4">Das tut es überhaupt nicht.</string>
+    <string name="answer4_5">Ihre Option</string>
 
-    <string name="q5">Какое вознаграждение вы готовы дать астрологу/нумерологу
-        за ответ на 1 волнующий вас вопрос?</string>
+    <string name="q5">Welche Art von Belohnung sind Sie bereit, einem Astrologen/Numerologen für die Beantwortung von 1 Frage, die Sie betrifft, zu geben?</string>
     <string name="answer5_1">19$</string>
     <string name="answer5_2">29$</string>
     <string name="answer5_3">39$</string>
     <string name="answer5_4">49$</string>
     <string name="answer5_5">79$</string>
-    <string name="answer5_6">Ваш вариант</string>
+    <string name="answer5_6">Ihre Option</string>
 
-    <string name="q6">Интересно ли вам стать частью астрологического/эзотерического сообщества,
-        в котором будут: мастер-классы от разных спикеров, новые темы для изучения, дискуссионные
-        площадки, общение с единомышленниками через чаты и тд?</string>
-    <string name="answer6_1">Да</string>
-    <string name="answer6_2">Нет</string>
+    <string name="q6">Sind Sie daran interessiert, Teil einer astrologischen/esoterischen Gemeinschaft zu werden, die Folgendes umfasst: Meisterklassen von verschiedenen Referenten, neue Themen, die es zu erforschen gilt, Diskussionsplattformen, Chatrooms mit Gleichgesinnten usw.?</string>
+    <string name="answer6_1">Ja</string>
+    <string name="answer6_2">Nein</string>
 
     <string name="q7">С какими вопросами вы бы хотели разобраться и на какие получить ответ?
         Что вас больше всего волнует?</string>
