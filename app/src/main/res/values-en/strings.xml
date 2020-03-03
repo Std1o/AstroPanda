@@ -5,6 +5,7 @@
     <string name="empty_field">Поле не может быть пустым</string>
     <string name="answer_field">Опишите в 2-3 предложениях, пожалуйста.</string>
     <string name="next">Далее</string>
+    <string name="getVipBtn">Get VIP status</string>
     <string name="taken">Вы заработали астробаллов</string>
     <string name="send">Отправить</string>
     <string name="push">Пройдите опрос</string>

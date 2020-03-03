@@ -5,6 +5,7 @@
     <string name="empty_field">Поле не может быть пустым</string>
     <string name="answer_field">Опишите в 2-3 предложениях, пожалуйста.</string>
     <string name="next">Далее</string>
+    <string name="getVipBtn">Get VIP status</string>
     <string name="taken">Вы заработали астробаллов</string>
     <string name="send">Отправить</string>
     <string name="push">Пройдите опрос</string>
@@ -20,34 +21,33 @@
     <string name="page8">Вопрос 8 из 9</string>
     <string name="page9">Вопрос 9 из 9</string>
 
-    <string name="app_start_using">Начать использование</string>
+    <string name="app_start_using">Start using</string>
 
     <!-- hintEt-->
-    <string name="etName">Представьтесь <font color='#FF4F90'>*</font></string>
-    <string name="etDate">Дата рождения <font color='#FF4F90'>*</font></string>
-    <string name="etPlace">Место рождения <font color='#FF4F90'>*</font></string>
-    <string name="etEmail">Ваш E-mail</string>
+    <string name="etName">Introduce yourself <font color='#FF4F90'>*</font></string>
+    <string name="etDate">Date of birth<font color='#FF4F90'>*</font></string>
+    <string name="etPlace">Place of birth<font color='#FF4F90'>*</font></string>
+    <string name="etEmail">Your E-mail</string>
 
-    <string name="tvInfo">* - обязательные для заполнения</string>
+    <string name="tvInfo">* - required fields</string>
 
-    <string name="cbAccept">Принимаю условия соглашения на обработку персональных данных</string>
+    <string name="cbAccept">I accept the terms of the agreement on processing of personal data</string>
 
     <!--GetVipActivity-->
-    <string name="tv1GetVip">Привет!\n\nМеня зовут AstroPanda и я помогу заглянуть в будущее!
-        Я объединяю в себе точные науки, передовые методы, современные технологии для познания себя,
-        своего будущего, будущего семьи и вашего окружения.\n\n
+    <string name="tv1GetVip">Hey!\n\nMy name is AstroPanda and I will help you look into the future!
+        I bring together exact sciences, best practices and modern technology to know yourself, your future, your family\'s future and your environment.\n\n
 
-    Пройдите этот короткий опрос и получите по итогу
-        <font color='#FF4F90'>1050 астромонет-бонусов</font> в нашем приложении.
-        Ответьте на все вопросы и получите
-        <font color='#FF4F90'>VIP-статус в нашем приложении!</font></string>
+    Please pass this short survey and you will receive a total of
+        <font color='#FF4F90'>1050 Astromonet bonuses</font> in our application.
+        Answer all your questions and get
+        <font color='#FF4F90'>VIP status in our application!</font></string>
 
-    <string name="q1">Отметьте что из этого вас интересует и чем бы вы пользовались
-    \nВыберите не больше 2-х вариантов</string>
-    <string name="answer1_1">Персонализированный гороскоп на день/неделю</string>
-    <string name="answer1_2">Онлайн-консультации у профессиональных астрологов/нумерологов по любым вопросам</string>
-    <string name="answer1_3">Нумерология</string>
-    <string name="answer1_4">Хиромантия (анализ по вашей руке)</string>
+    <string name="q1">Select which of these is of interest to you and what you would use.
+    \nChoose no more than 2 options</string>
+    <string name="answer1_1">Personalized day/week horoscope</string>
+    <string name="answer1_2">Online consultation with professional astrologers/numerologists on any questions</string>
+    <string name="answer1_3">Numerology</string>
+    <string name="answer1_4">Chiromancy (analysis by your hand)</string>
 
     <string name="q2">Какие прогнозы на 2020 год вас больше всего интересуют?
     \nВыберите не больше 2-х вариантов</string>

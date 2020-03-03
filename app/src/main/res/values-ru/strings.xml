@@ -7,6 +7,7 @@
     <string name="next">Далее</string>
     <string name="taken">Вы заработали астробаллов</string>
     <string name="send">Отправить</string>
+    <string name="getVipBtn">Получить VIP-статус</string>
     <string name="push">Пройдите опрос</string>
     <string name="restart_for_changes">Изменения вступят в силу после перезапуска</string>
 
