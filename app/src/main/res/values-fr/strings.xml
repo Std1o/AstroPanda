@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">AstroPanda</string>
 
-    <string name="err_no_selected">Ничего не выбрано</string>
-    <string name="empty_field">Поле не может быть пустым</string>
+    <string name="err_no_selected">Rien n\'est sélectionné</string>
+    <string name="empty_field">Le champ ne peut pas être vide</string>
     <string name="next">Suivant</string>
     <string name="getVipBtn">Obtenir le statut de VIP</string>
     <string name="taken">Vous avez gagné des astrobones</string>
-    <string name="send">Отправить</string>
-    <string name="push">Пройдите опрос</string>
-    <string name="restart_for_changes">deменения вступят в силу после перезапуска</string>
+    <string name="send">Envoyer</string>
+    <string name="push">Veuillez prendre le sondage</string>
+    <string name="restart_for_changes">Les modifications prendront effet après le redémarrage</string>
 
     <string name="page1">Question 1 de 9</string>
     <string name="page2">Question 2 de 9</string>
@@ -98,13 +98,11 @@
     <string name="answer9_1">Votre choix</string>
 
 
-    <string name="tvCongratulations">Поздравляем!\n\n
-    Вы успешно ответили на все Questionы!\n
-    Теперь вы получили
-        <font color='#FF4F90'>VIP-статус и 500 астробонусов</font>, которые
-        вы можете потратить на дополнительные услуги!
-    \n\nВ настоящее время приложение находится в разработке.
-        Мы оповестим вас уведомлением, когда приложение будет запущено и
-        вы сможете использовать полученные преимущества! Спасибо вам от</string>
-    <string name="view_the_interface">Посмотреть интерфейс</string>
+    <string name="tvCongratulations">Félicitations!\n\n
+    Vous avez répondu avec succès à toutes les questions!\n
+    Vous avez maintenant reçu
+        <font color='#FF4F90'>le statut VIP et 500 astrobones</font>, que vous pouvez dépenser pour des services supplémentaires!
+    \n\nL'application est actuellement en cours de développement.
+        Nous vous informerons lorsque l'application sera lancée et vous pourrez profiter des avantages! Merci de la part d'AstroPanda!</string>
+    <string name="view_the_interface">Voir l'interface</string>
 </resources>
