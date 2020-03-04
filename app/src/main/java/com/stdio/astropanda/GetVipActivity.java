@@ -31,6 +31,7 @@ public class GetVipActivity extends AppCompatActivity {
     SharedPreferences languagePref;
     boolean isShowed = false;
     TextView tvName, tvAge;
+    String currentLocale;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +42,7 @@ public class GetVipActivity extends AppCompatActivity {
 // Change locale settings in the app.
         DisplayMetrics dm = res.getDisplayMetrics();
         android.content.res.Configuration conf = res.getConfiguration();
-        System.out.println(getLanguageFromPosition(languagePref.getInt("language", getSpinnerPosition(Locale.getDefault().getCountry()))));
+        currentLocale = GetVipActivity.getLanguageFromPosition(languagePref.getInt("language", GetVipActivity.getSpinnerPosition(Locale.getDefault().getCountry())));
         conf.setLocale(new Locale(getLanguageFromPosition(languagePref.getInt("language", getSpinnerPosition(Locale.getDefault().getCountry()))))); // API 17+ only.
 // Use conf.locale = new Locale(...) if targeting lower versions
         res.updateConfiguration(conf, dm);
@@ -126,8 +127,14 @@ public class GetVipActivity extends AppCompatActivity {
         tvName = findViewById(R.id.tvName);
         tvAge = findViewById(R.id.tvAge);
 
+        String age = new PrefManager(this).getAge();
+        if (!currentLocale.equals("ru")) {
+            age = age.replace("лет", "years old");
+            age = age.replace("год", "years old");
+            age = age.replace("года", "years old");
+        }
         tvName.setText(new PrefManager(this).getName());
-        tvAge.setText(new PrefManager(this).getAge());
+        tvAge.setText(age);
     }
 
     public void onClick(View view) {

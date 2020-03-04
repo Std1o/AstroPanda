@@ -39,6 +39,7 @@ public class Q1Activity extends AppCompatActivity {
     ArrayList<Integer> images = new ArrayList<>();
     SharedPreferences languagePref;
     boolean isShowed = false;
+    String currentLocale;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,6 +81,7 @@ public class Q1Activity extends AppCompatActivity {
         Resources res = getResources();
         DisplayMetrics dm = res.getDisplayMetrics();
         android.content.res.Configuration conf = res.getConfiguration();
+        currentLocale = GetVipActivity.getLanguageFromPosition(languagePref.getInt("language", GetVipActivity.getSpinnerPosition(Locale.getDefault().getCountry())));
         conf.setLocale(new Locale(GetVipActivity.getLanguageFromPosition(languagePref
                 .getInt("language", GetVipActivity.getSpinnerPosition(Locale.getDefault().getCountry())))));
         res.updateConfiguration(conf, dm);
@@ -89,8 +91,14 @@ public class Q1Activity extends AppCompatActivity {
         tvName = findViewById(R.id.tvName);
         tvAge = findViewById(R.id.tvAge);
 
+        String age = new PrefManager(this).getAge();
+        if (!currentLocale.equals("ru")) {
+            age = age.replace("лет", "years old");
+            age = age.replace("год", "years old");
+            age = age.replace("года", "years old");
+        }
         tvName.setText(new PrefManager(this).getName());
-        tvAge.setText(new PrefManager(this).getAge());
+        tvAge.setText(age);
     }
 
     private void initSpinner() {
