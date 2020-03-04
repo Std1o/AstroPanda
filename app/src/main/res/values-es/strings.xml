@@ -30,7 +30,7 @@
 
     <string name="tvInfo">* - El campo es obligatorio</string>
 
-    <string name="cbAccept">Acepto los términos del acuerdo sobre el tratamiento de datos personales</string>
+    <string name="cbAccept">Acepto los <a href="http://astropanda.site/agreement.html">términos del acuerdo</a> sobre el tratamiento de datos personales</string>
 
     <!--GetVipActivity-->
     <string name="tv1GetVip">¡Eh!\n\n¡Me llamo AstroPanda y te ayudaré a mirar hacia el futuro!

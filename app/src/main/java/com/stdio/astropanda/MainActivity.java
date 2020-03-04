@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -158,6 +159,7 @@ public class MainActivity extends AppCompatActivity {
         btnGetVip = findViewById(R.id.btnGetVip);
         CheckBox checkBox = findViewById(R.id.checkBox);
         checkBox.setOnClickListener(CheckBoxClickListener);
+        checkBox.setMovementMethod(LinkMovementMethod.getInstance());
         etName = findViewById(R.id.etName);
         etDate = findViewById(R.id.etDate);
         etMail = findViewById(R.id.etMail);
