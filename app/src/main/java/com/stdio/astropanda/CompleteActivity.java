@@ -18,6 +18,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
@@ -32,6 +33,8 @@ public class CompleteActivity extends AppCompatActivity {
     ArrayList<Integer> images = new ArrayList<>();
     SharedPreferences languagePref;
     boolean isShowed = false;
+    TextView tvName, tvAge;
+    String currentLocale;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,11 +45,14 @@ public class CompleteActivity extends AppCompatActivity {
 // Change locale settings in the app.
         DisplayMetrics dm = res.getDisplayMetrics();
         android.content.res.Configuration conf = res.getConfiguration();
-        System.out.println(GetVipActivity.getLanguageFromPosition(languagePref.getInt("language", GetVipActivity.getSpinnerPosition(Locale.getDefault().getCountry()))));
-        conf.setLocale(new Locale(GetVipActivity.getLanguageFromPosition(languagePref.getInt("language", GetVipActivity.getSpinnerPosition(Locale.getDefault().getCountry()))))); // API 17+ only.
+        currentLocale = GetVipActivity.getLanguageFromPosition(languagePref.getInt("language", GetVipActivity.getSpinnerPosition(Locale.getDefault().getCountry())));
+        System.out.println(currentLocale);
+        conf.setLocale(new Locale(currentLocale)); // API 17+ only.
 // Use conf.locale = new Locale(...) if targeting lower versions
         res.updateConfiguration(conf, dm);
         setContentView(R.layout.activity_complete);
+
+        initAndSetViews();
 
         SharedPreferences currentPagePref = getSharedPreferences("currentPagePref", MODE_PRIVATE);
         SharedPreferences.Editor editor = currentPagePref.edit();
@@ -125,6 +131,20 @@ public class CompleteActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    private void initAndSetViews() {
+        tvName = findViewById(R.id.tvName);
+        tvAge = findViewById(R.id.tvAge);
+
+        String age = new PrefManager(this).getAge();
+        if (!currentLocale.equals("ru")) {
+            age = age.replace("лет", "years old");
+            age = age.replace("год", "years old");
+            age = age.replace("года", "years old");
+        }
+        tvName.setText(new PrefManager(this).getName());
+        tvAge.setText(age);
     }
 
     public void onClick(View view) {
