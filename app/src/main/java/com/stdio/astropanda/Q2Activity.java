@@ -75,6 +75,12 @@ public class Q2Activity extends AppCompatActivity {
 
         CheckBox fourthCheckBox = findViewById(R.id.CheckBox4);
         fourthCheckBox.setOnClickListener(CheckBoxClickListener);
+
+        CheckBox fifth = findViewById(R.id.CheckBox5);
+        fifth.setOnClickListener(CheckBoxClickListener);
+
+        CheckBox sixth = findViewById(R.id.CheckBox6);
+        sixth.setOnClickListener(CheckBoxClickListener);
         et = findViewById(R.id.etAdvice);
     }
 

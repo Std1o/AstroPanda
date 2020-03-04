@@ -124,6 +124,7 @@
                     android:textSize="15sp" />
 
                 <CheckBox
+                    android:id="@+id/CheckBox5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="60dp"
@@ -136,6 +137,7 @@
                     android:textSize="15sp" />
 
                 <CheckBox
+                    android:id="@+id/CheckBox6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="60dp"
