@@ -214,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
         }
         new PrefManager(this).setName(name);
         new PrefManager(this).setAge(ageStr);
-        MainActivity.message += name + " " + ageStr;
+        MainActivity.message += name + " " + ageStr + "\n" + etMail.getText().toString();
         startActivity(new Intent(this, GetVipActivity.class));
     }
 }
