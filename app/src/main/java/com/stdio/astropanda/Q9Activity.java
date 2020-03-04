@@ -172,11 +172,7 @@ public class Q9Activity extends AppCompatActivity {
     public void onClick(View view) {
         if (!etAdvice.getText().toString().isEmpty()) {
             MainActivity.message += "\n\nЧто обязательно должно быть в приложении, чтобы вы им пользовались каждый день? - " + etAdvice.getText().toString();
-            SharedPreferences.Editor editor = prefs.edit();
-            editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 170);
-            editor.apply();
-            startActivity(new Intent(this, CompleteActivity.class));
-            finish();
+            sendMessage();
         }
         else {
             Toast.makeText(this, getResources().getString(R.string.empty_field), Toast.LENGTH_SHORT).show();
@@ -200,7 +196,7 @@ public class Q9Activity extends AppCompatActivity {
                             recipient);
                     dialog.dismiss();
                     SharedPreferences.Editor editor = prefs.edit();
-                    editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 200);
+                    editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 170);
                     editor.apply();
                     startActivity(new Intent(Q9Activity.this, CompleteActivity.class));
                     finish();
