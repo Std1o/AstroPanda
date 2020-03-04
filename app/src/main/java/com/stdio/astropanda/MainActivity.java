@@ -179,6 +179,15 @@ public class MainActivity extends AppCompatActivity {
     };
 
     public void onClick(View view) {
+        if (!etName.getText().toString().isEmpty() && !etDate.getText().toString().isEmpty()) {
+            onAllowedClick();
+        }
+        else {
+            Toast.makeText(this, getString(R.string.empty_field), Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void onAllowedClick() {
         String name = etName.getText().toString();
         int age = 0;
         String date = etDate.getText().toString();
