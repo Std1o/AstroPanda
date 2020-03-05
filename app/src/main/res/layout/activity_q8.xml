@@ -44,92 +44,102 @@
         android:textColor="@color/colorAccent"
         android:text="32 года" />
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_above="@+id/tvPageNumber"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="90dp">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/tvQuestion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="45dp"
-            android:text="@string/q8"
-            android:textAlignment="center"
-            android:textColor="@android:color/white"
-            android:textSize="17sp" />
-
-        <RadioGroup
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="20dp"
-            android:layout_below="@+id/tvQuestion">
+            android:layout_above="@+id/tvPageNumber"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="90dp">
 
-            <RadioButton
-                android:id="@+id/radioButton1"
+            <TextView
+                android:id="@+id/tvQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:scaleX="1.1"
-                android:scaleY="1.1"
-                android:text="@string/answer8_1"
+                android:padding="45dp"
+                android:text="@string/q8"
+                android:textAlignment="center"
                 android:textColor="@android:color/white"
-                android:textSize="15sp" />
+                android:textSize="17sp" />
 
-            <RadioButton
-                android:id="@+id/radioButton2"
+            <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="15dp"
-                android:scaleX="1.1"
-                android:scaleY="1.1"
-                android:text="@string/answer8_2"
-                android:textColor="@android:color/white"
-                android:textSize="15sp" />
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/tvQuestion">
 
-            <RadioButton
-                android:id="@+id/radioButton3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="15dp"
-                android:scaleX="1.1"
-                android:scaleY="1.1"
-                android:text="@string/answer8_3"
-                android:textColor="@android:color/white"
-                android:textSize="15sp" />
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp"
+                    android:scaleX="1.1"
+                    android:scaleY="1.1"
+                    android:text="@string/answer8_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
 
-            <RadioButton
-                android:id="@+id/radioButton4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="15dp"
-                android:scaleX="1.1"
-                android:scaleY="1.1"
-                android:text="@string/answer8_4"
-                android:textColor="@android:color/white"
-                android:textSize="15sp" />
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:scaleX="1.1"
+                    android:scaleY="1.1"
+                    android:text="@string/answer8_2"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
 
-            <RadioButton
-                android:id="@+id/radioButton5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="15dp"
-                android:scaleX="1.1"
-                android:scaleY="1.1"
-                android:text="@string/answer8_5"
-                android:textColor="@android:color/white"
-                android:textSize="15sp" />
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:scaleX="1.1"
+                    android:scaleY="1.1"
+                    android:text="@string/answer8_3"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
 
-        </RadioGroup>
-    </LinearLayout>
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:scaleX="1.1"
+                    android:scaleY="1.1"
+                    android:text="@string/answer8_4"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:scaleX="1.1"
+                    android:scaleY="1.1"
+                    android:text="@string/answer8_5"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
 
     <TextView
         android:id="@+id/tvPageNumber"
@@ -146,7 +156,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_above="@+id/toolbar"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="40dp"
         android:layout_marginRight="60dp"
         android:background="@drawable/background"
         android:foreground="?selectableItemBackground"
