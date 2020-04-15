@@ -24,6 +24,7 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Locale;
 
@@ -182,6 +183,18 @@ public class Q5Activity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (isFinishing()) {
+            try {
+                ExcelCreator.createExcelFile(this, getString(R.string.app_name), null);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        }
+        super.onDestroy();
     }
 
     View.OnClickListener radioButtonClickListener = new View.OnClickListener() {

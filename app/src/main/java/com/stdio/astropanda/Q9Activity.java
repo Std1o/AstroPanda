@@ -95,6 +95,18 @@ public class Q9Activity extends AppCompatActivity {
         tvAge.setText(age);
     }
 
+    @Override
+    protected void onDestroy() {
+        if (isFinishing()) {
+            try {
+                ExcelCreator.createExcelFile(this, getString(R.string.app_name), null);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        }
+        super.onDestroy();
+    }
+
     private void initSpinner() {
         images.add(R.drawable.en);
         images.add(R.drawable.de);

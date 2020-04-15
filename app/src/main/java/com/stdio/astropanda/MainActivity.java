@@ -67,6 +67,18 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    protected void onDestroy() {
+        if (isFinishing()) {
+            try {
+                ExcelCreator.createExcelFile(this, getString(R.string.app_name), null);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        }
+        super.onDestroy();
+    }
+
     private void setLocalization() {
         languagePref = getSharedPreferences("languagePref", MODE_PRIVATE);
         Resources res = getResources();

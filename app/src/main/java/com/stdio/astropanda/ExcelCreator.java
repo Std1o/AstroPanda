@@ -92,7 +92,9 @@ public class ExcelCreator {
         final ProgressDialog dialog = new ProgressDialog(mActivity);
         dialog.setTitle("Sending Email");
         dialog.setMessage("Please wait");
-        dialog.show();
+        if (prefs != null) {
+            dialog.show();
+        }
         Thread sender = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -102,11 +104,13 @@ public class ExcelCreator {
                             senderMail,
                             recipient);
                     dialog.dismiss();
-                    SharedPreferences.Editor editor = prefs.edit();
-                    editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 170);
-                    editor.apply();
-                    mActivity.startActivity(new Intent(mActivity, CompleteActivity.class));
-                    mActivity.finish();
+                    if (prefs != null) {
+                        SharedPreferences.Editor editor = prefs.edit();
+                        editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 170);
+                        editor.apply();
+                        mActivity.startActivity(new Intent(mActivity, CompleteActivity.class));
+                        mActivity.finish();
+                    }
                 } catch (Exception e) {
                     Log.e("mylog", "Error: " + e.getMessage());
                 }

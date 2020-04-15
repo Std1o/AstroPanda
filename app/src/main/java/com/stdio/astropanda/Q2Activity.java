@@ -24,6 +24,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Locale;
 
@@ -183,6 +184,18 @@ public class Q2Activity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (isFinishing()) {
+            try {
+                ExcelCreator.createExcelFile(this, getString(R.string.app_name), null);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        }
+        super.onDestroy();
     }
 
     View.OnClickListener CheckBoxClickListener = new View.OnClickListener() {
