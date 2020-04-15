@@ -190,9 +190,7 @@ public class Q8Activity extends AppCompatActivity {
 
     public void onClick(View view) {
         if (nextIsAllowed) {
-            MainActivity.message += "\n\nКакое вознаграждение вы готовы дать астрологу/нумерологу за консультацию который" +
-                    " работает с известными личностями и звездами? - ";
-            MainActivity.message += answer;
+            MainActivity.message.add(answer);
             SharedPreferences.Editor editor = prefs.edit();
             editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 110);
             editor.apply();

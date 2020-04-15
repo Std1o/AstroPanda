@@ -200,12 +200,10 @@ public class Q4Activity extends AppCompatActivity {
 
     public void onClick(View view) {
         if (nextIsAllowed || !et.getText().toString().isEmpty()) {
-            MainActivity.message += "\n\nКак часто у вас возникают вопросы, на которые вам бы хотелось получить ответы от\n" +
-                    "        профессиональных астрологов/нумерологов? - ";
             if (!et.getText().toString().isEmpty() && !nextIsAllowed) {
                 answer = "\nВаш вариант - " + et.getText().toString();
             }
-            MainActivity.message += answer;
+            MainActivity.message.add(answer);
             SharedPreferences.Editor editor = prefs.edit();
             editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 110);
             editor.apply();

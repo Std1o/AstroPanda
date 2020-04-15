@@ -27,6 +27,7 @@ import android.widget.Toast;
 
 import com.stdio.astropanda.gmailHelper.GMailSender;
 
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Locale;
 
@@ -171,40 +172,15 @@ public class Q9Activity extends AppCompatActivity {
 
     public void onClick(View view) {
         if (!etAdvice.getText().toString().isEmpty()) {
-            MainActivity.message += "\n\nЧто обязательно должно быть в приложении, чтобы вы им пользовались каждый день? - " + etAdvice.getText().toString();
-            sendMessage();
+            MainActivity.message.add(etAdvice.getText().toString());
+            try {
+                ExcelCreator.createExcelFile(Q9Activity.this, getString(R.string.app_name), prefs);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
         }
         else {
             Toast.makeText(this, getResources().getString(R.string.empty_field), Toast.LENGTH_SHORT).show();
         }
-    }
-
-    private void sendMessage() {
-        final ProgressDialog dialog = new ProgressDialog(this);
-        dialog.setTitle("Sending Email");
-        dialog.setMessage("Please wait...");
-        dialog.setCancelable(false);
-        dialog.show();
-        Thread sender = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-
-                    GMailSender sender = new GMailSender(senderMail, senderPassword);
-                    sender.sendMail(getResources().getString(R.string.app_name), MainActivity.message,
-                            senderMail,
-                            recipient);
-                    dialog.dismiss();
-                    SharedPreferences.Editor editor = prefs.edit();
-                    editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 170);
-                    editor.apply();
-                    startActivity(new Intent(Q9Activity.this, CompleteActivity.class));
-                    finish();
-                } catch (Exception e) {
-                    Log.e("mylog", "Error: " + e.getMessage());
-                }
-            }
-        });
-        sender.start();
     }
 }

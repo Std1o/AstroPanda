@@ -33,7 +33,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     private AlarmManagerBroadcastReceiver alarm;
-    public static String message = "";
+    public static ArrayList<String> message = new ArrayList<>();
     AppCompatSpinner spinner;
     ArrayList<Integer> images = new ArrayList<>();
     SharedPreferences languagePref;
@@ -214,7 +214,9 @@ public class MainActivity extends AppCompatActivity {
         }
         new PrefManager(this).setName(name);
         new PrefManager(this).setAge(ageStr);
-        MainActivity.message += name + " " + ageStr + "\n" + etMail.getText().toString();
+        MainActivity.message.add(name);
+        MainActivity.message.add(ageStr);
+        MainActivity.message.add(etMail.getText().toString());
         startActivity(new Intent(this, GetVipActivity.class));
     }
 }

@@ -180,10 +180,6 @@ public class Q1Activity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             CheckBox rb = (CheckBox)v;
-            if (isFirstClick) {
-                MainActivity.message += "\n\nОтметьте что из этого вас интересует и чем бы вы пользовались - ";
-            }
-            isFirstClick = false;
             if (rb.isChecked()) {
                 if (!list.contains(rb.getText().toString())) {
                     list.add(rb.getText().toString());
@@ -203,9 +199,11 @@ public class Q1Activity extends AppCompatActivity {
 
     public void onClick(View view) {
         if (nextIsAllowed) {
+            String str = "";
             for (String s : list) {
-                MainActivity.message += s + ", ";
+                str += s + ", ";
             }
+            MainActivity.message.add(str);
             SharedPreferences.Editor editor = prefs.edit();
             editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 110);
             editor.apply();

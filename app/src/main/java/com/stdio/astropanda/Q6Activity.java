@@ -181,10 +181,7 @@ public class Q6Activity extends AppCompatActivity {
 
     public void onClick(View view) {
         if (nextIsAllowed) {
-            MainActivity.message += "\n\nИнтересно ли вам стать частью астрологического/эзотерического сообщества," +
-                    " в котором будут: мастер-классы от разных спикеров, новые темы для изучения, дискуссионные" +
-                    " площадки, общение с единомышленниками через чаты и тд? - ";
-            MainActivity.message += answer;
+            MainActivity.message.add(answer);
             SharedPreferences.Editor editor = prefs.edit();
             editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 110);
             editor.apply();

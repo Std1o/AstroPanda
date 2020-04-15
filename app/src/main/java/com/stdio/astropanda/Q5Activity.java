@@ -203,12 +203,10 @@ public class Q5Activity extends AppCompatActivity {
 
     public void onClick(View view) {
         if (nextIsAllowed || !et.getText().toString().isEmpty()) {
-            MainActivity.message += "\n\nКакое вознаграждение вы готовы дать астрологу/нумерологу " +
-                    "за ответ на 1 волнующий вас вопрос? - ";
             if (!et.getText().toString().isEmpty() && !nextIsAllowed) {
-                answer = "\nВаш вариант - " + et.getText().toString();
+                answer = et.getText().toString();
             }
-            MainActivity.message += answer;
+            MainActivity.message.add(answer);
             SharedPreferences.Editor editor = prefs.edit();
             editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 110);
             editor.apply();

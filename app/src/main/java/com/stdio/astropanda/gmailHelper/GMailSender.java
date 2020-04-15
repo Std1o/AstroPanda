@@ -59,19 +59,21 @@ public class GMailSender extends javax.mail.Authenticator {
         return new PasswordAuthentication(user, password);
     }
 
-    public synchronized void sendMail(String subject, String body, String sender, String recipients) throws Exception {
+    public synchronized void sendMail(String subject, File excelFile, String sender, String recipients) throws Exception {
         try{
-            MimeBodyPart messageBodyPart1 = new MimeBodyPart();
-            messageBodyPart1.setText(body);
+
+            MimeBodyPart messageBodyPart2 = new MimeBodyPart();
+            messageBodyPart2.attachFile(excelFile);
 
             Multipart multipart = new MimeMultipart();
-            multipart.addBodyPart(messageBodyPart1);
+            multipart.addBodyPart(messageBodyPart2);
+
 
             MimeMessage message = new MimeMessage(session);
             message.setSender(new InternetAddress(sender));
             message.setSubject(subject);
             message.setContent(multipart);
-            // message.setDataHandler(new DataHandler(new ByteArrayDataSource("kek".getBytes(), "text/plain")));
+           // message.setDataHandler(new DataHandler(new ByteArrayDataSource("kek".getBytes(), "text/plain")));
             if (recipients.indexOf(',') > 0)
                 message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipients));
             else

@@ -189,10 +189,6 @@ public class Q2Activity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             CheckBox rb = (CheckBox)v;
-            if (isFirstClick) {
-                MainActivity.message += "\n\nКакие прогнозы на 2020 год вас больше всего интересуют? - ";
-            }
-            isFirstClick = false;
             if (rb.isChecked()) {
                 if (!list.contains(rb.getText().toString())) {
                     list.add(rb.getText().toString());
@@ -212,15 +208,14 @@ public class Q2Activity extends AppCompatActivity {
 
     public void onClick(View view) {
         if (nextIsAllowed || !et.getText().toString().isEmpty()) {
+            String str = "";
             for (String s : list) {
-                MainActivity.message += s + ", ";
+                str += s + ", ";
             }
             if (!et.getText().toString().isEmpty()) {
-                if (isFirstClick) {
-                    MainActivity.message += "\n\nКакие прогнозы на 2020 год вас больше всего интересуют? - ";
-                }
-                MainActivity.message += "\nВаш вариант - " + et.getText().toString();
+                str += et.getText().toString();
             }
+            MainActivity.message.add(str);
             SharedPreferences.Editor editor = prefs.edit();
             editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 110);
             editor.apply();
