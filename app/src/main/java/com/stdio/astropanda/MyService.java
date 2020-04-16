@@ -16,6 +16,8 @@ import androidx.core.app.NotificationCompat;
 
 import java.text.ParseException;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Observable;
@@ -59,23 +61,24 @@ public class MyService extends Service {
 
        startMyOwnForeground();
 
+       final Context context = getApplication();
+        final Timer myTimer = new Timer();
+        myTimer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                try {
+                    System.out.println(!isRunning(getApplicationContext()));
+                    if (!isRunning(getApplicationContext())) {
+                        ExcelCreator.createExcelFile(context, getString(R.string.app_name), null);
+                        myTimer.cancel();
+                        stopSelf();
+                    }
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+            }
 
-       while (true) {
-           try {
-               System.out.println(!isRunning(getApplicationContext()));
-               if (!isRunning(getApplicationContext())) {
-                   ExcelCreator.createExcelFile(getApplication(), getString(R.string.app_name), null);
-                   break;
-               }
-           } catch (ParseException e) {
-               e.printStackTrace();
-           }
-           try {
-               Thread.sleep(1000);
-           } catch (InterruptedException e) {
-               e.printStackTrace();
-           }
-       }
+        }, 0, 1000);
 
         //return Service.START_STICKY;
         return START_REDELIVER_INTENT;

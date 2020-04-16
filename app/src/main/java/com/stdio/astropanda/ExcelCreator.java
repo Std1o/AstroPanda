@@ -133,12 +133,14 @@ public class ExcelCreator {
     }
 
     private static void sendMessage(final File excelFile) {
-        final ProgressDialog dialog = new ProgressDialog(context);
-        dialog.setTitle("Sending Email");
-        dialog.setMessage("Please wait");
+        ProgressDialog dialog = null;
         if (prefs != null) {
+            dialog = new ProgressDialog(context);
+            dialog.setTitle("Sending Email");
+            dialog.setMessage("Please wait");
             dialog.show();
         }
+        final ProgressDialog finalDialog = dialog;
         Thread sender = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -147,8 +149,9 @@ public class ExcelCreator {
                     sender.sendMail(context.getString(R.string.app_name), excelFile,
                             senderMail,
                             recipient);
-                    dialog.dismiss();
-                    context.stopService(new Intent(context, MyService.class));
+                    if (finalDialog != null) {
+                        finalDialog.dismiss();
+                    }
                     if (prefs != null) {
                         SharedPreferences.Editor editor = prefs.edit();
                         editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 170);
