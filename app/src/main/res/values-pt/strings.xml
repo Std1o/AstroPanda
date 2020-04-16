@@ -84,18 +84,18 @@
     <string name="answer6_1">Sim</string>
     <string name="answer6_2">Não</string>
 
-    <string name="q7">Which questions would you like to answer and which ones? What do you most care about?</string>
-    <string name="answer7_1">Enter your answer</string>
+    <string name="q7">Que perguntas gostaria de responder e quais? O que te interessa mais?</string>
+    <string name="answer7_1">A sua opção</string>
 
-    <string name="q8">What kind of reward are you willing to give to an astrologer/numerologist for consulting with famous personalities and stars?</string>
+    <string name="q8">Que tipo de recompensa está disposto a dar a um astrólogo/numerólogo por consultar com personalidades e estrelas famosas?</string>
     <string name="answer8_1">200$</string>
     <string name="answer8_2">300$</string>
     <string name="answer8_3">400$</string>
     <string name="answer8_4">500$</string>
-    <string name="answer8_5">I don\'t care if an astrologer works with famous personalities or not. I\'m not willing to overpay for it.</string>
+    <string name="answer8_5">Não me interessa se um astrólogo trabalha ou não com personalidades famosas. Não estou disposto a pagar demais por isso.</string>
 
-    <string name="q9">What does the application have to be in order for you to use it every day?</string>
-    <string name="answer9_1">Enter your answer</string>
+    <string name="q9">O que tem de ser a aplicação para que possa utilizá-la todos os dias?</string>
+    <string name="answer9_1">A sua opção</string>
 
 
     <string name="tvCongratulations">Congratulations!\n\n
