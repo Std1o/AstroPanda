@@ -58,31 +58,31 @@
     <string name="answer2_6">Não</string>
     <string name="answer2_7">A sua opção</string>
 
-    <string name="q3">Note what you are interested in and what you would use
+    <string name="q3">Anote no que está interessado e o que usaria
     \nEscolha não mais do que 2 opções</string>
-    <string name="answer3_1">Esoteric (energy cleansing, evil eye and environment testing for vampirism)</string>
-    <string name="answer3_2">Astro Dating (search for a partner based on your life maps, destinations and true needs)</string>
+    <string name="answer3_1">Esotérico (limpeza energética, maus-olhos e testes ambientais para o vampirismo)</string>
+    <string name="answer3_2">Astro Dating (procure um parceiro com base nos seus mapas de vida, destinos e verdadeiras necessidades)</string>
     <string name="answer3_3">Feng Shui</string>
-    <string name="answer3_4">Your option</string>
+    <string name="answer3_4">A sua opção</string>
 
-    <string name="q4">How often do you have questions that you would like answers from professional astrologers/numerologists?</string>
-    <string name="answer4_1">Once a month</string>
-    <string name="answer4_2">Two times a month</string>
-    <string name="answer4_3">Once every 3 months.</string>
-    <string name="answer4_4">Doesn\'t at all.</string>
-    <string name="answer4_5">Your option</string>
+    <string name="q4">Com que frequência tem perguntas que gostaria de obter respostas de profissionais de astrologia/numerologia?</string>
+    <string name="answer4_1">Uma vez por mês.</string>
+    <string name="answer4_2">Duas vezes por mês.</string>
+    <string name="answer4_3">Uma vez de 3 em 3 meses.</string>
+    <string name="answer4_4">Não tem de todo.</string>
+    <string name="answer4_5">A sua opção</string>
 
-    <string name="q5">What kind of reward are you willing to give to an astrologer/numerologist for answering 1 question that concerns you?</string>
+    <string name="q5">Que tipo de recompensa está disposto a dar a um astrólogo/numerólogo por responder a uma pergunta que lhe diz respeito?</string>
     <string name="answer5_1">19$</string>
     <string name="answer5_2">29$</string>
     <string name="answer5_3">39$</string>
     <string name="answer5_4">49$</string>
     <string name="answer5_5">79$</string>
-    <string name="answer5_6">Your option</string>
+    <string name="answer5_6">A sua opção</string>
 
-    <string name="q6">Are you interested in becoming part of an astrological/esoteric community that includes: master classes from different speakers, new topics to explore, discussion platforms, chat rooms with like-minded people, etc.?</string>
-    <string name="answer6_1">Yes</string>
-    <string name="answer6_2">No</string>
+    <string name="q6"> Está interessado em fazer parte de uma comunidade astrológica/esotérica que inclui: master classes de diferentes oradores, novos tópicos a explorar, plataformas de discussão, salas de chat com pessoas com os mesmos interesses, etc.?</string>
+    <string name="answer6_1">Sim</string>
+    <string name="answer6_2">Não</string>
 
     <string name="q7">Which questions would you like to answer and which ones? What do you most care about?</string>
     <string name="answer7_1">Enter your answer</string>
