@@ -3,22 +3,22 @@
 
     <string name="err_no_selected">Nothing is selected</string>
     <string name="empty_field">The field cannot be empty</string>
-    <string name="next">Next</string>
+    <string name="next">Próximo</string>
     <string name="getVipBtn">Get VIP status</string>
     <string name="taken">You\'ve earned astrobonuses</string>
     <string name="send">Send</string>
     <string name="push">Please take the survey</string>
     <string name="restart_for_changes">The changes will take effect after the restart</string>
 
-    <string name="page1">Question 1 of 9</string>
-    <string name="page2">Question 2 of 9</string>
-    <string name="page3">Question 3 of 9</string>
-    <string name="page4">Question 4 of 9</string>
-    <string name="page5">Question 5 of 9</string>
-    <string name="page6">Question 6 of 9</string>
-    <string name="page7">Question 7 of 9</string>
-    <string name="page8">Question 8 of 9</string>
-    <string name="page9">Question 9 of 9</string>
+    <string name="page1">Pergunta 1 de 9</string>
+    <string name="page2">Pergunta 2 de 9</string>
+    <string name="page3">Pergunta 3 de 9</string>
+    <string name="page4">Pergunta 4 de 9</string>
+    <string name="page5">Pergunta 5 de 9</string>
+    <string name="page6">Pergunta 6 de 9</string>
+    <string name="page7">Pergunta 7 de 9</string>
+    <string name="page8">Pergunta 8 de 9</string>
+    <string name="page9">Pergunta 9 de 9</string>
 
     <string name="app_start_using">Start using</string>
 
@@ -41,12 +41,12 @@
         Responda a todas as suas perguntas e obtenha o estatuto
         <font color='#FF4F90'>VIP na nossa candidatura!</font></string>
 
-    <string name="q1">Select which of these is of interest to you and what you would use.
-    \nChoose no more than 2 options</string>
-    <string name="answer1_1">Personalized day/week horoscope</string>
-    <string name="answer1_2">Online consultation with professional astrologers/numerologists on any questions</string>
-    <string name="answer1_3">Numerology</string>
-    <string name="answer1_4">Chiromancy (analysis by your hand)</string>
+    <string name="q1">Seleccione qual deles lhe interessa e o que pretende utilizar.
+    \nEscolha não mais do que 2 opções</string>
+    <string name="answer1_1">Horóscopo personalizado de dia/semana</string>
+    <string name="answer1_2">Consulta online com astrólogos/numerologistas profissionais sobre quaisquer questões</string>
+    <string name="answer1_3">Numerologia</string>
+    <string name="answer1_4">Chiromancia (análise pela sua mão)</string>
 
     <string name="q2">Which predictions for 2020 are you most interested in?
     \nChoose no more than 2 options</string>
