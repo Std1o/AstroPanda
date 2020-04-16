@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     private Calendar c = Calendar.getInstance();
     private Calendar now = Calendar.getInstance();
     private SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+    boolean forIntent = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences currentPagePref = getSharedPreferences("currentPagePref", MODE_PRIVATE);
         String currentActivity = currentPagePref.getString("currentPage", "");
         if (!currentActivity.isEmpty()) {
+            forIntent = true;
             startActivity(new Intent("." + currentActivity).setPackage("com.stdio.astropanda"));
             finish();
         } else {
@@ -69,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        if (isFinishing()) {
+        if (isFinishing() && !forIntent) {
             try {
                 ExcelCreator.createExcelFile(this, getString(R.string.app_name), null);
             } catch (ParseException e) {
