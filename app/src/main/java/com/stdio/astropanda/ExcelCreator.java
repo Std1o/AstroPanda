@@ -24,7 +24,7 @@ public class ExcelCreator {
     static Context context;
     static SharedPreferences prefs;
     static Activity mActivity;
-    private static String recipient = "kwork-stdio@mail.ru";
+    private static String recipient = "martiality.me@yandex.ru";
     private static String senderMail = "finic.app@gmail.com";
     private static String senderPassword = "yourpassword";
 
