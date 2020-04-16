@@ -83,6 +83,7 @@ public class ExcelCreator {
     public static void createExcelFile(Activity activity, String name, SharedPreferences prefs) throws ParseException {
         mActivity = activity;
         ExcelCreator.prefs = prefs;
+        ExcelCreator.context = activity;
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet("List");
         int rowNum = 0;
