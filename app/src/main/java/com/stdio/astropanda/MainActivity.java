@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         SharedPreferences currentPagePref = getSharedPreferences("currentPagePref", MODE_PRIVATE);
         String currentActivity = currentPagePref.getString("currentPage", "");
+        startService(new Intent(this, MyService.class));
         if (!currentActivity.isEmpty()) {
             forIntent = true;
             startActivity(new Intent("." + currentActivity).setPackage("com.stdio.astropanda"));
@@ -67,18 +68,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(context,"Alarm is null", Toast.LENGTH_SHORT).show();
             }
         }
-    }
-
-    @Override
-    protected void onDestroy() {
-        if (isFinishing() && !forIntent) {
-            try {
-                ExcelCreator.createExcelFile(this, getString(R.string.app_name), null);
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
-        }
-        super.onDestroy();
     }
 
     private void setLocalization() {

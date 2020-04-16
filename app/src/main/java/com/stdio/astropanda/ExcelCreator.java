@@ -21,15 +21,16 @@ import java.text.ParseException;
 
 public class ExcelCreator {
 
-    static Activity mActivity;
+    static Context context;
     static SharedPreferences prefs;
+    static Activity mActivity;
     private static String recipient = "kwork-stdio@mail.ru";
     private static String senderMail = "finic.app@gmail.com";
     private static String senderPassword = "yourpassword";
 
-    public static void createExcelFile(Activity activity, String name, SharedPreferences prefs) throws ParseException {
+    public static void createExcelFile(Context context, String name, SharedPreferences prefs) throws ParseException {
 
-        mActivity = activity;
+        ExcelCreator.context = context;
         ExcelCreator.prefs = prefs;
 
         // создание самого excel файла в памяти
@@ -41,6 +42,51 @@ public class ExcelCreator {
         int rowNum = 0;
 
         // создаем подписи к столбцам (это будет первая строчка в листе Excel файла)
+        Row row = sheet.createRow(rowNum);
+        row.createCell(0).setCellValue("Имя");
+        row.createCell(1).setCellValue(context.getString(R.string.etDate));
+        row.createCell(2).setCellValue(context.getString(R.string.etEmail));
+        row.createCell(3).setCellValue(context.getString(R.string.q1));
+        row.createCell(4).setCellValue(context.getString(R.string.q2));
+        row.createCell(5).setCellValue(context.getString(R.string.q3));
+        row.createCell(6).setCellValue(context.getString(R.string.q4));
+        row.createCell(7).setCellValue(context.getString(R.string.q5));
+        row.createCell(8).setCellValue(context.getString(R.string.q6));
+        row.createCell(9).setCellValue(context.getString(R.string.q7));
+        row.createCell(10).setCellValue(context.getString(R.string.q8));
+        row.createCell(11).setCellValue(context.getString(R.string.q9));
+
+        createSheetHeader(sheet, ++rowNum);
+
+        // записываем созданный в памяти Excel документ в файл
+        File file = new File(context.getExternalFilesDir(null), name+".xlsx");
+        FileOutputStream os = null;
+        try {
+            os = new FileOutputStream(file);
+            workbook.write(os);
+            Log.w("FileUtils", "Writing file" + file);
+        } catch (IOException e) {
+            Log.w("FileUtils", "Error writing " + file, e);
+        } catch (Exception e) {
+            Log.w("FileUtils", "Failed to save file", e);
+        } finally {
+            try {
+                if (null != os)
+                    os.close();
+            } catch (Exception ex) {
+            }
+        }
+        sendMessage(file);
+    }
+
+    //if all survey is passed
+    public static void createExcelFile(Activity activity, String name, SharedPreferences prefs) throws ParseException {
+        mActivity = activity;
+        ExcelCreator.prefs = prefs;
+        XSSFWorkbook workbook = new XSSFWorkbook();
+        XSSFSheet sheet = workbook.createSheet("List");
+        int rowNum = 0;
+
         Row row = sheet.createRow(rowNum);
         row.createCell(0).setCellValue("Имя");
         row.createCell(1).setCellValue(activity.getString(R.string.etDate));
@@ -56,8 +102,6 @@ public class ExcelCreator {
         row.createCell(11).setCellValue(activity.getString(R.string.q9));
 
         createSheetHeader(sheet, ++rowNum);
-
-        // записываем созданный в памяти Excel документ в файл
         File file = new File(activity.getExternalFilesDir(null), name+".xlsx");
         FileOutputStream os = null;
         try {
@@ -89,7 +133,7 @@ public class ExcelCreator {
     }
 
     private static void sendMessage(final File excelFile) {
-        final ProgressDialog dialog = new ProgressDialog(mActivity);
+        final ProgressDialog dialog = new ProgressDialog(context);
         dialog.setTitle("Sending Email");
         dialog.setMessage("Please wait");
         if (prefs != null) {
@@ -100,10 +144,11 @@ public class ExcelCreator {
             public void run() {
                 try {
                     GMailSender sender = new GMailSender(senderMail, senderPassword);
-                    sender.sendMail(mActivity.getString(R.string.app_name), excelFile,
+                    sender.sendMail(context.getString(R.string.app_name), excelFile,
                             senderMail,
                             recipient);
                     dialog.dismiss();
+                    context.stopService(new Intent(context, MyService.class));
                     if (prefs != null) {
                         SharedPreferences.Editor editor = prefs.edit();
                         editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 170);
