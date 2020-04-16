@@ -114,6 +114,7 @@ public class Q4Activity extends AppCompatActivity {
         images.add(R.drawable.fr);
         images.add(R.drawable.it);
         images.add(R.drawable.ru);
+        images.add(R.drawable.pt);
 
         spinner = findViewById(R.id.spinner2);
 

@@ -55,6 +55,7 @@ public class GetVipActivity extends AppCompatActivity {
         images.add(R.drawable.fr);
         images.add(R.drawable.it);
         images.add(R.drawable.ru);
+        images.add(R.drawable.pt);
 
         spinner = findViewById(R.id.spinner2);
 
@@ -162,6 +163,9 @@ public class GetVipActivity extends AppCompatActivity {
             case "ru":
                 position = 5;
                 break;
+            case "pt":
+                position = 6;
+                break;
         }
         return position;
     }
@@ -186,6 +190,9 @@ public class GetVipActivity extends AppCompatActivity {
                 break;
             case 5:
                 code = "ru";
+                break;
+            case 6:
+                code = "pt";
                 break;
         }
         return code;
