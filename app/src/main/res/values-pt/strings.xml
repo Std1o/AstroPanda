@@ -5,7 +5,7 @@
     <string name="empty_field">The field cannot be empty</string>
     <string name="next">Próximo</string>
     <string name="getVipBtn">Get VIP status</string>
-    <string name="taken">You\'ve earned astrobonuses</string>
+    <string name="taken">Você ganhou astrobônus</string>
     <string name="send">Send</string>
     <string name="push">Please take the survey</string>
     <string name="restart_for_changes">The changes will take effect after the restart</string>
@@ -48,18 +48,18 @@
     <string name="answer1_3">Numerologia</string>
     <string name="answer1_4">Chiromancia (análise pela sua mão)</string>
 
-    <string name="q2">Which predictions for 2020 are you most interested in?
-    \nChoose no more than 2 options</string>
-    <string name="answer2_1">Relationship Forecast</string>
-    <string name="answer2_2">Career Forecast</string>
-    <string name="answer2_3">Health Prognosis</string>
-    <string name="answer2_4">Money forecast</string>
-    <string name="answer2_5">Forecast of good and bad days</string>
-    <string name="answer2_6">None</string>
-    <string name="answer2_7">Your option</string>
+    <string name="q2">Em que previsões para 2020 está mais interessado?
+    \nEscolha não mais do que 2 opções</string>
+    <string name="answer2_1">Previsões de Relacionamento</string>
+    <string name="answer2_2">Previsão de Carreira</string>
+    <string name="answer2_3">Prognóstico de Saúde</string>
+    <string name="answer2_4">Previsão do dinheiro</string>
+    <string name="answer2_5">Previsão de dias bons e dias maus</string>
+    <string name="answer2_6">Não</string>
+    <string name="answer2_7">A sua opção</string>
 
     <string name="q3">Note what you are interested in and what you would use
-    \nChoose no more than 2 options</string>
+    \nEscolha não mais do que 2 opções</string>
     <string name="answer3_1">Esoteric (energy cleansing, evil eye and environment testing for vampirism)</string>
     <string name="answer3_2">Astro Dating (search for a partner based on your life maps, destinations and true needs)</string>
     <string name="answer3_3">Feng Shui</string>
