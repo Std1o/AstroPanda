@@ -98,11 +98,11 @@
     <string name="answer9_1">A sua opção</string>
 
 
-    <string name="tvCongratulations">Congratulations!\n\n
-    You have successfully answered all the questions!\n
-    Now you have received
-        <font color='#FF4F90'>VIP status and 500 astrobonuses</font>, which you can spend on additional services!
-    \n\nThe application is currently under development.
-        МWe will notify you when the application is launched and you can use the benefits! Thank you from AstroPanda!</string>
-    <string name="view_the_interface">View the interface</string>
+    <string name="tvCongratulations">Parabéns!\n\n
+    Respondeu a todas as perguntas com sucesso!\n
+    Agora você recebeu o status de
+        <font color='#FF4F90'>VIP e 500 astrobônus</font>, que você pode gastar em serviços adicionais!
+    \n\nA aplicação está actualmente em desenvolvimento.
+        Iremos notificá-lo quando a aplicação for lançada e poderá utilizar os benefícios! Obrigado da AstroPanda!</string>
+    <string name="view_the_interface">Ver a interface</string>
 </resources>
