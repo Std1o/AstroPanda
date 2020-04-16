@@ -28,18 +28,18 @@
     <string name="etPlace">Local de nascimento<font color='#FF4F90'>*</font></string>
     <string name="etEmail">O seu e-mail</string>
 
-    <string name="tvInfo">* - required fields</string>
+    <string name="tvInfo">* - O campo é obrigatório</string>
 
-    <string name="cbAccept">I accept the <a href="http://astropanda.site/agreement.html">terms of the agreement</a> on processing of personal data</string>
+    <string name="cbAccept">Aceito os <a href="http://astropanda.site/agreement.html">termos do acordo</a> sobre o tratamento de dados pessoais</string>
 
     <!--GetVipActivity-->
-    <string name="tv1GetVip">Hey!\n\nMy name is AstroPanda and I will help you look into the future!
-        I bring together exact sciences, best practices and modern technology to know yourself, your future, your family\'s future and your environment.\n\n
+    <string name="tv1GetVip">Olá!\n\nO meu nome é AstroPanda e eu vou ajudá-lo a olhar para o futuro!
+        Reúno ciências exactas, melhores práticas e tecnologia moderna para conhecer a si próprio, o seu futuro, o futuro da sua família e do seu ambiente.\n\n
 
-    Please pass this short survey and you will receive a total of
-        <font color='#FF4F90'>1050 Astromonet bonuses</font> in our application.
-        Answer all your questions and get
-        <font color='#FF4F90'>VIP status in our application!</font></string>
+    Por favor passe este pequeno questionário e receberá um total de
+        <font color='#FF4F90'>1050 bónus Astromonet</font> na nossa candidatura.
+        Responda a todas as suas perguntas e obtenha o estatuto
+        <font color='#FF4F90'>VIP na nossa candidatura!</font></string>
 
     <string name="q1">Select which of these is of interest to you and what you would use.
     \nChoose no more than 2 options</string>
