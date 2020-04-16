@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">AstroPanda</string>
+
+    <string name="err_no_selected">Nothing is selected</string>
+    <string name="empty_field">The field cannot be empty</string>
+    <string name="next">Next</string>
+    <string name="getVipBtn">Get VIP status</string>
+    <string name="taken">You\'ve earned astrobonuses</string>
+    <string name="send">Send</string>
+    <string name="push">Please take the survey</string>
+    <string name="restart_for_changes">The changes will take effect after the restart</string>
+
+    <string name="page1">Question 1 of 9</string>
+    <string name="page2">Question 2 of 9</string>
+    <string name="page3">Question 3 of 9</string>
+    <string name="page4">Question 4 of 9</string>
+    <string name="page5">Question 5 of 9</string>
+    <string name="page6">Question 6 of 9</string>
+    <string name="page7">Question 7 of 9</string>
+    <string name="page8">Question 8 of 9</string>
+    <string name="page9">Question 9 of 9</string>
+
+    <string name="app_start_using">Start using</string>
+
+    <!-- hintEt-->
+    <string name="etName">Apresente-se <font color='#FF4F90'>*</font></string>
+    <string name="etDate">Data de nascimento<font color='#FF4F90'>*</font></string>
+    <string name="etPlace">Local de nascimento<font color='#FF4F90'>*</font></string>
+    <string name="etEmail">O seu e-mail</string>
+
+    <string name="tvInfo">* - required fields</string>
+
+    <string name="cbAccept">I accept the <a href="http://astropanda.site/agreement.html">terms of the agreement</a> on processing of personal data</string>
+
+    <!--GetVipActivity-->
+    <string name="tv1GetVip">Hey!\n\nMy name is AstroPanda and I will help you look into the future!
+        I bring together exact sciences, best practices and modern technology to know yourself, your future, your family\'s future and your environment.\n\n
+
+    Please pass this short survey and you will receive a total of
+        <font color='#FF4F90'>1050 Astromonet bonuses</font> in our application.
+        Answer all your questions and get
+        <font color='#FF4F90'>VIP status in our application!</font></string>
+
+    <string name="q1">Select which of these is of interest to you and what you would use.
+    \nChoose no more than 2 options</string>
+    <string name="answer1_1">Personalized day/week horoscope</string>
+    <string name="answer1_2">Online consultation with professional astrologers/numerologists on any questions</string>
+    <string name="answer1_3">Numerology</string>
+    <string name="answer1_4">Chiromancy (analysis by your hand)</string>
+
+    <string name="q2">Which predictions for 2020 are you most interested in?
+    \nChoose no more than 2 options</string>
+    <string name="answer2_1">Relationship Forecast</string>
+    <string name="answer2_2">Career Forecast</string>
+    <string name="answer2_3">Health Prognosis</string>
+    <string name="answer2_4">Money forecast</string>
+    <string name="answer2_5">Forecast of good and bad days</string>
+    <string name="answer2_6">None</string>
+    <string name="answer2_7">Your option</string>
+
+    <string name="q3">Note what you are interested in and what you would use
+    \nChoose no more than 2 options</string>
+    <string name="answer3_1">Esoteric (energy cleansing, evil eye and environment testing for vampirism)</string>
+    <string name="answer3_2">Astro Dating (search for a partner based on your life maps, destinations and true needs)</string>
+    <string name="answer3_3">Feng Shui</string>
+    <string name="answer3_4">Your option</string>
+
+    <string name="q4">How often do you have questions that you would like answers from professional astrologers/numerologists?</string>
+    <string name="answer4_1">Once a month</string>
+    <string name="answer4_2">Two times a month</string>
+    <string name="answer4_3">Once every 3 months.</string>
+    <string name="answer4_4">Doesn\'t at all.</string>
+    <string name="answer4_5">Your option</string>
+
+    <string name="q5">What kind of reward are you willing to give to an astrologer/numerologist for answering 1 question that concerns you?</string>
+    <string name="answer5_1">19$</string>
+    <string name="answer5_2">29$</string>
+    <string name="answer5_3">39$</string>
+    <string name="answer5_4">49$</string>
+    <string name="answer5_5">79$</string>
+    <string name="answer5_6">Your option</string>
+
+    <string name="q6">Are you interested in becoming part of an astrological/esoteric community that includes: master classes from different speakers, new topics to explore, discussion platforms, chat rooms with like-minded people, etc.?</string>
+    <string name="answer6_1">Yes</string>
+    <string name="answer6_2">No</string>
+
+    <string name="q7">Which questions would you like to answer and which ones? What do you most care about?</string>
+    <string name="answer7_1">Enter your answer</string>
+
+    <string name="q8">What kind of reward are you willing to give to an astrologer/numerologist for consulting with famous personalities and stars?</string>
+    <string name="answer8_1">200$</string>
+    <string name="answer8_2">300$</string>
+    <string name="answer8_3">400$</string>
+    <string name="answer8_4">500$</string>
+    <string name="answer8_5">I don\'t care if an astrologer works with famous personalities or not. I\'m not willing to overpay for it.</string>
+
+    <string name="q9">What does the application have to be in order for you to use it every day?</string>
+    <string name="answer9_1">Enter your answer</string>
+
+
+    <string name="tvCongratulations">Congratulations!\n\n
+    You have successfully answered all the questions!\n
+    Now you have received
+        <font color='#FF4F90'>VIP status and 500 astrobonuses</font>, which you can spend on additional services!
+    \n\nThe application is currently under development.
+        МWe will notify you when the application is launched and you can use the benefits! Thank you from AstroPanda!</string>
+    <string name="view_the_interface">View the interface</string>
+</resources>
