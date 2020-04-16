@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
     private Calendar c = Calendar.getInstance();
     private Calendar now = Calendar.getInstance();
     private SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-    boolean forIntent = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
         String currentActivity = currentPagePref.getString("currentPage", "");
         startService(new Intent(this, MyService.class));
         if (!currentActivity.isEmpty()) {
-            forIntent = true;
             startActivity(new Intent("." + currentActivity).setPackage("com.stdio.astropanda"));
             finish();
         } else {

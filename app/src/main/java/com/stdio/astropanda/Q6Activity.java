@@ -41,7 +41,6 @@ public class Q6Activity extends AppCompatActivity {
     SharedPreferences languagePref;
     boolean isShowed = false;
     String currentLocale;
-    private boolean forIntent = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -171,18 +170,6 @@ public class Q6Activity extends AppCompatActivity {
         });
     }
 
-    @Override
-    protected void onDestroy() {
-        if (isFinishing() && !forIntent) {
-            try {
-                ExcelCreator.createExcelFile(this, getString(R.string.app_name), null);
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
-        }
-        super.onDestroy();
-    }
-
     View.OnClickListener radioButtonClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -199,7 +186,6 @@ public class Q6Activity extends AppCompatActivity {
             SharedPreferences.Editor editor = prefs.edit();
             editor.putInt("moneyCount", prefs.getInt("moneyCount", 0) + 110);
             editor.apply();
-            forIntent = true;
             startActivity(new Intent(this, Q7Activity.class));
             finish();
         }

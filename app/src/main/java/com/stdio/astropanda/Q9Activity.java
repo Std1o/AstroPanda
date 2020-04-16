@@ -46,7 +46,6 @@ public class Q9Activity extends AppCompatActivity {
     SharedPreferences languagePref;
     boolean isShowed = false;
     String currentLocale;
-    private boolean forIntent = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,18 +93,6 @@ public class Q9Activity extends AppCompatActivity {
         }
         tvName.setText(new PrefManager(this).getName());
         tvAge.setText(age);
-    }
-
-    @Override
-    protected void onDestroy() {
-        if (isFinishing() && !forIntent) {
-            try {
-                ExcelCreator.createExcelFile(this, getString(R.string.app_name), null);
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
-        }
-        super.onDestroy();
     }
 
     private void initSpinner() {
